@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs          # Required for GitHub Pages
+
+website:
+  title: "Woo-Sung Hollenhorst"
+  favicon: images/favicon.png
+  navbar:
+    logo: images/logo.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects/index.qmd
+        text: Projects
+      - href: reflection.qmd
+        text: Reflection
+      - href: contact.qmd
+        text: Contact
+    right:
+      - text: CV
+        href: cv/cv.pdf
+        target: _blank         # Opens in new tab
+      - icon: github
+        href: https://github.com/YOUR-USERNAME/my-portfolio
+        target: _blank
+  page-footer:
+    center: "Woo-Sung Hollenhorst | E-Portfolio"
+
+format:
+  html:
+    theme: darkly
+    css: styles.scss

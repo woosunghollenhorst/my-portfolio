@@ -1,0 +1,21 @@
+---
+title: "Woo-Sung Hollenhorst"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      href: https://www.linkedin.com/in/woo-sung-hollenhorst-b05386220/
+    - icon: github
+      href: https://github.com/woosunghollenhorst
+    - icon: envelope
+      href: mailto:woohollenhorst@gmail.com
+---
+<style>
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+</style>
+I'm a Business Analytics Master student at DCU Business School with a passion for data science, strategy, and technology. Welcome to my portfolio - explore my projects, learn about my background. If I caught your interest, feel free to reach out to me. Enjoy!

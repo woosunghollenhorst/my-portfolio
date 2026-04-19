@@ -1,0 +1,37 @@
+---
+title: "About Me"
+about:
+  template: trestles
+  image: images/profile.jpg
+  image-shape: round
+  image-width: 15em
+---
+<style>
+body {
+  background-image: url('images/background.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+</style>
+
+## Who I Am
+
+My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea, which shaped me to be curious, adaptable, and always looking for the story behind data.
+I'm currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and data visualisation.
+
+## Background
+
+Before moving to Ireland, I worked in sales, business intelligence, and project management across Germany and Poland, roles that taught me how to translate complex ideas into action.
+Fluent in English, German, and Korean, I thrive in international environments. Whether I'm analysing trends, building dashboards, or supporting a project team, I'm driven by creating work that helps people make better decisions. I have experience in demand forecasting, sentiment analysis, and business strategy. I've worked with tools like Python, BERT, and various machine learning frameworks to tackle complex analytical challenges.
+
+## Skills
+
+- **Programming:** Python, R, SQL
+- **Data Science:** Machine Learning, NLP, Deep Learning
+- **Tools:** PowerBi, Git, Jupyter, Quarto
+- **Business:** Strategy Analysis, Financial Modelling, Market Research
+
+## Goals
+
+I'm looking to build a career at the intersection of business and technology, with a focus on analytics and data-driven decision making. I'm currently exploring opportunities within the EU.

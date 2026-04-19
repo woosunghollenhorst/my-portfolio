@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+$body-bg: #fafafa;
+$body-color: #2d2d2d;
+$link-color: #6c63ff;
+$navbar-bg: #1a1a2e;
+$navbar-fg: #ffffff;
+
+/*-- scss:rules --*/
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.about-link {
+  border-radius: 25px;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+}
+
+.about-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+}
+
+img.about-image {
+  border-radius: 50%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}

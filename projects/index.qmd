@@ -1,0 +1,18 @@
+---
+title: "Woo-Sung Hollenhorst"
+about:
+  template: trestles
+  image: ./images/profile.jpg
+  image-shape: round
+  image-width: 15em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/your-profile
+    - icon: github
+      text: GitHub
+      href: https://github.com/your-username
+    - icon: envelope
+      text: Email
+      href: mailto:your@email.com
+---
