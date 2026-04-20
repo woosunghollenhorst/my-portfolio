@@ -5,6 +5,10 @@ author: "Woo-Sung Hollenhorst"
 date: "2026-04-19"
 image: ../../images/project2.jpg
 categories: [Data Visualisation, Business Intelligence, Power BI]
+format:
+  html:
+    code-fold: true
+    code-tools: true
 ---
 <style>
 body {

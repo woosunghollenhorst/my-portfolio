@@ -4,7 +4,6 @@ listing:
   contents: list
   type: grid
   image-height: 200px
-  categories: true
 ---
 <style>
 body {

@@ -5,6 +5,10 @@ author: "Woo-Sung Hollenhorst"
 date: "2024-05-28"
 image: ../../images/project3.jpg
 categories: [Research, Consumer Behavior, E-Commerce]
+format:
+  html:
+    code-fold: true
+    code-tools: true
 ---
 <style>
 body {
