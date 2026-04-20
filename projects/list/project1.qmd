@@ -8,7 +8,6 @@ categories: [NLP, Machine Learning, Deep Learning]
 format:
   html:
     code-fold: true
-    code-tools: true
 ---
 <style>
 body {

@@ -8,7 +8,6 @@ categories: [Research, Consumer Behavior, E-Commerce]
 format:
   html:
     code-fold: true
-    code-tools: true
 ---
 <style>
 body {

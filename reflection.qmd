@@ -29,4 +29,4 @@ The biggest challenge was getting things to work consistently across pages, imag
 
 ## Connecting to Future Goals
 
-Building this portfolio ties directly into my career goals in analytics and technology. Having a professional online presence where I showcase some of my projects, executable code, with a clear narrative is something I can continue to develop and share with potential employers. The technical skills this module required mirrors what I want to do professionally, turning complex work into something easy to understand
+Building this portfolio ties directly into my career goals in analytics and technology. Having a professional online presence where I showcase some of my projects, executable code, with a clear narrative is something I can continue to develop and share with potential employers. The technical skills this module required mirrors what I want to do professionally, turning complex work into something easy to understand.

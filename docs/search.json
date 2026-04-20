@@ -32,7 +32,7 @@
     "href": "projects/list/project4.html#market-segmentation-sinus-milieus",
     "title": "Swapfiets Marketing Strategy",
     "section": "Market Segmentation: Sinus-Milieus",
-    "text": "Market Segmentation: Sinus-Milieus\n\n\nCode\nimport plotly.graph_objects as go\n\nmilieus = ['High Achiever', 'Socio-ecological', 'Escapist', \n           'Movers & Shakers', 'New Middle Class']\nshare = [27, 16, 15, 10, 8]\ncolors = ['#5bcefa', '#7c73ff', '#2ecc71', '#e74c3c', '#f39c12']\n\nfig = go.Figure(data=[go.Pie(\n    labels=milieus, \n    values=share, \n    marker=dict(colors=colors),\n    textinfo='label+percent',\n    textfont=dict(color='white', size=12),\n    hovertemplate='%{label}: %{value}%&lt;extra&gt;&lt;/extra&gt;'\n)])\nfig.update_layout(\n    title='Sinus-Milieus Distribution in Karlsruhe',\n    template='plotly_dark',\n    paper_bgcolor='rgba(0,0,0,0)',\n    plot_bgcolor='rgba(0,0,0,0)',\n    font=dict(color='#e0e0e0'),\n    showlegend=False\n)\nfig.show()"
+    "text": "Market Segmentation: Sinus-Milieus\n\n\nCode\nimport plotly.graph_objects as go\n\nmilieus = ['High Achiever', 'Socio-ecological', 'Escapist', \n           'Movers & Shakers', 'New Middle Class']\nshare = [35.5, 21.1, 19.7, 13.2, 10.5]\ncolors = ['#5bcefa', '#7c73ff', '#2ecc71', '#e74c3c', '#f39c12']\n\nfig = go.Figure(data=[go.Pie(\n    labels=milieus, \n    values=share, \n    marker=dict(colors=colors),\n    textinfo='label+percent',\n    textfont=dict(color='white', size=12),\n    hovertemplate='%{label}: %{value}%&lt;extra&gt;&lt;/extra&gt;'\n)])\nfig.update_layout(\n    title='Sinus-Milieus Distribution in Karlsruhe',\n    template='plotly_dark',\n    paper_bgcolor='rgba(0,0,0,0)',\n    plot_bgcolor='rgba(0,0,0,0)',\n    font=dict(color='#e0e0e0'),\n    showlegend=False\n)\nfig.show()"
   },
   {
     "objectID": "projects/list/project4.html#survey-interest-by-milieu",
@@ -410,6 +410,6 @@
     "href": "reflection.html#connecting-to-future-goals",
     "title": "Reflection",
     "section": "Connecting to Future Goals",
-    "text": "Connecting to Future Goals\nBuilding this portfolio ties directly into my career goals in analytics and technology. Having a professional online presence where I showcase some of my projects, executable code, with a clear narrative is something I can continue to develop and share with potential employers. The technical skills this module required mirrors what I want to do professionally, turning complex work into something easy to understand"
+    "text": "Connecting to Future Goals\nBuilding this portfolio ties directly into my career goals in analytics and technology. Having a professional online presence where I showcase some of my projects, executable code, with a clear narrative is something I can continue to develop and share with potential employers. The technical skills this module required mirrors what I want to do professionally, turning complex work into something easy to understand."
   }
 ]
