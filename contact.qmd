@@ -1,0 +1,25 @@
+---
+title: "Contact"
+---
+<style>
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+</style>
+
+## Get in Touch
+
+I'm always open to new opportunities, collaborations, and conversations. Feel free to reach out through any of the channels below.
+
+## Contact Details
+
+- {{< fa envelope >}} **Email:** [woohollenhorst@gmail.com](mailto:woohollenhorst@gmail.com)
+- {{< fa brands linkedin >}} **LinkedIn:** [Woo-Sung Hollenhorst](https://www.linkedin.com/in/woo-sung-hollenhorst-b05386220/)
+- {{< fa brands github >}} **GitHub:** [woosunghollenhorst](https://github.com/woosunghollenhorst)
+
+## Location
+
+Currently based in Dublin, Ireland. Open to opportunities across the EU.

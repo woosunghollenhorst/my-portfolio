@@ -203,25 +203,53 @@
     "text": "Inference Time Comparison\nDeployment cost and scalability\n\ntiming_sample = test_texts[:500]\n\n#BERT inference timing\nbert_model_timing = AutoModelForSequenceClassification.from_pretrained(\"./bert_optimised_model\").to(\"cuda\")\nbert_model_timing.eval()\n\ntorch.cuda.synchronize()\nstart = time.time()\nfor sentence in timing_sample:\n    inputs = tokenizer(sentence, truncation=True, max_length=256, return_tensors=\"pt\").to(\"cuda\")\n    with torch.no_grad():\n        _ = bert_model_timing(**inputs).logits\ntorch.cuda.synchronize()\nbert_time = time.time() - start\n\nprint(f\"BERT: {bert_time:.2f}s for 500 samples ({bert_time/500*1000:.1f}ms per sample)\")\n\n#Gemma inference timing\ntorch.cuda.synchronize()\nstart = time.time()\nfor sentence in timing_sample[:50]:\n    prompt = build_zero_shot(sentence)\n    messages = [{\"role\": \"user\", \"content\": prompt}]\n    inputs = gemma_tokenizer.apply_chat_template(messages, return_tensors=\"pt\", return_dict=True, add_generation_prompt=True).to(\"cuda\")\n    with torch.no_grad():\n        _ = gemma_model.generate(**inputs, max_new_tokens=10, do_sample=False)\ntorch.cuda.synchronize()\ngemma_time = time.time() - start\ngemma_time_500 = gemma_time / 50 * 500\n\nprint(f\"Gemma 4: {gemma_time:.2f}s for 50 samples ({gemma_time/50*1000:.1f}ms per sample)\")\nprint(f\"Gemma 4 (extrapolated to 500): {gemma_time_500:.1f}s\")\nprint(f\"\\nBERT is ~{gemma_time_500/bert_time:.0f}x faster than Gemma 4 for classification\")\n\nfig, ax = plt.subplots(figsize=(6, 4))\nax.bar([\"BERT (500)\", \"Gemma 4 (500 est.)\"], [bert_time, gemma_time_500], color=[\"#3498db\", \"#e74c3c\"])\nax.set_ylabel(\"Time (seconds)\")\nax.set_title(\"Inference Time: 500 Samples\")\nplt.tight_layout()\nplt.show()\n\n\n\n\nBERT: 5.53s for 500 samples (11.1ms per sample)\nGemma 4: 5.05s for 50 samples (101.0ms per sample)\nGemma 4 (extrapolated to 500): 50.5s\n\nBERT is ~9x faster than Gemma 4 for classification"
   },
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always open to new opportunities, collaborations, and conversations. Feel free to reach out through any of the channels below."
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always open to new opportunities, collaborations, and conversations. Feel free to reach out through any of the channels below."
+  },
+  {
+    "objectID": "contact.html#contact-details",
+    "href": "contact.html#contact-details",
+    "title": "Contact",
+    "section": "Contact Details",
+    "text": "Contact Details\n\n Email: woohollenhorst@gmail.com\n LinkedIn: Woo-Sung Hollenhorst\n GitHub: woosunghollenhorst"
+  },
+  {
+    "objectID": "contact.html#location",
+    "href": "contact.html#location",
+    "title": "Contact",
+    "section": "Location",
+    "text": "Location\nCurrently based in Dublin, Ireland. Open to opportunities across the EU."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea, which shaped me to be curious, adaptable, and always looking for the story behind data. I’m currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and data visualisation."
+    "text": "My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea. I’m currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and overall data visualisation."
   },
   {
     "objectID": "about.html#who-i-am",
     "href": "about.html#who-i-am",
     "title": "About Me",
     "section": "",
-    "text": "My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea, which shaped me to be curious, adaptable, and always looking for the story behind data. I’m currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and data visualisation."
+    "text": "My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea. I’m currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and overall data visualisation."
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
     "title": "About Me",
     "section": "Background",
-    "text": "Background\nBefore moving to Ireland, I worked in sales, business intelligence, and project management across Germany and Poland, roles that taught me how to translate complex ideas into action. Fluent in English, German, and Korean, I thrive in international environments. Whether I’m analysing trends, building dashboards, or supporting a project team, I’m driven by creating work that helps people make better decisions. I have experience in demand forecasting, sentiment analysis, and business strategy. I’ve worked with tools like Python, BERT, and various machine learning frameworks to tackle complex analytical challenges."
+    "text": "Background\nBefore moving to Ireland, I worked in sales, business intelligence, and project management across Germany and Poland, roles that taught me how to translate complex ideas into action. I am fluent in English, German, and Korean, I thrive in intercultural environments. Whether I’m analysing trends or building dashboards, I’m driven by creating work that helps people make better decisions. I have experience in demand forecasting, sentiment analysis, and business strategy. I’ve also worked with tools like Python, BERT, and various machine learning frameworks to tackle complex analytical challenges."
   },
   {
     "objectID": "about.html#skills",
@@ -236,6 +264,13 @@
     "title": "About Me",
     "section": "Goals",
     "text": "Goals\nI’m looking to build a career at the intersection of business and technology, with a focus on analytics and data-driven decision making. I’m currently exploring opportunities within the EU."
+  },
+  {
+    "objectID": "about.html#my-journey",
+    "href": "about.html#my-journey",
+    "title": "About Me",
+    "section": "My Journey",
+    "text": "My Journey\n\n\n\n\n\ntimeline\n    title My Journey\n    2018 : Started International Business\n         : Karlshochschule, Germany\n    2020 : Swapfiets Marketing Project\n         : Company Collaboration\n    2022 : Sales & BI Roles\n         : Germany & Poland\n    2024 : Bachelor Thesis\n         : Covid-19 & E-Commerce Research\n    2024 : Started MSc Business Analytics\n         : Dublin City University\n    2025 : LLM Sentiment Analysis\n         : BERT vs Gemma 4 Comparison\n    2026 : Portfolio Launch\n         : Built with Quarto & Python"
   },
   {
     "objectID": "index.html",

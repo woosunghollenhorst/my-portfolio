@@ -23,7 +23,7 @@ website:
         href: cv/cv.pdf
         target: _blank         # Opens in new tab
       - icon: github
-        href: https://github.com/YOUR-USERNAME/my-portfolio
+        href: https://github.com/woosunghollenhorst
         target: _blank
   page-footer:
     center: "Woo-Sung Hollenhorst | E-Portfolio"

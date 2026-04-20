@@ -17,13 +17,13 @@ body {
 
 ## Who I Am
 
-My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea, which shaped me to be curious, adaptable, and always looking for the story behind data.
-I'm currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and data visualisation.
+My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea.
+I'm currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and overall data visualisation.
 
 ## Background
 
 Before moving to Ireland, I worked in sales, business intelligence, and project management across Germany and Poland, roles that taught me how to translate complex ideas into action.
-Fluent in English, German, and Korean, I thrive in international environments. Whether I'm analysing trends, building dashboards, or supporting a project team, I'm driven by creating work that helps people make better decisions. I have experience in demand forecasting, sentiment analysis, and business strategy. I've worked with tools like Python, BERT, and various machine learning frameworks to tackle complex analytical challenges.
+I am fluent in English, German, and Korean, I thrive in intercultural environments. Whether I'm analysing trends or building dashboards, I'm driven by creating work that helps people make better decisions. I have experience in demand forecasting, sentiment analysis, and business strategy. I've also worked with tools like Python, BERT, and various machine learning frameworks to tackle complex analytical challenges.
 
 ## Skills
 
@@ -35,3 +35,26 @@ Fluent in English, German, and Korean, I thrive in international environments. W
 ## Goals
 
 I'm looking to build a career at the intersection of business and technology, with a focus on analytics and data-driven decision making. I'm currently exploring opportunities within the EU.
+
+::: {.column-page}
+## My Journey
+
+```{mermaid}
+timeline
+    title My Journey
+    2018 : Started International Business
+         : Karlshochschule, Germany
+    2020 : Swapfiets Marketing Project
+         : Company Collaboration
+    2022 : Sales & BI Roles
+         : Germany & Poland
+    2024 : Bachelor Thesis
+         : Covid-19 & E-Commerce Research
+    2024 : Started MSc Business Analytics
+         : Dublin City University
+    2025 : LLM Sentiment Analysis
+         : BERT vs Gemma 4 Comparison
+    2026 : Portfolio Launch
+         : Built with Quarto & Python
+```
+:::
