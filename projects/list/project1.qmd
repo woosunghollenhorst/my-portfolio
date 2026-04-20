@@ -21,7 +21,7 @@ This project compares two approaches to financial news sentiment classification:
 
 ::: {.callout-tip}
 ## Full Notebook
-Download the complete Jupyter notebook with all code and outputs: [Download Notebook](../../notebooks/sentiment-analysis.ipynb)
+Download the complete Jupyter notebook with all code and outputs: [View Notebook](../../notebooks/sentiment-analysis.ipynb){target="_blank"}
 :::
 
 ## Dataset Distribution

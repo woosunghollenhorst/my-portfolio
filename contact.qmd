@@ -8,6 +8,9 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+#quarto-content {
+  min-height: calc(100vh - 120px);
+}
 </style>
 
 ## Get in Touch
@@ -16,9 +19,9 @@ I'm always open to new opportunities, collaborations, and conversations. Feel fr
 
 ## Contact Details
 
-- {{< fa envelope >}} **Email:** [woohollenhorst@gmail.com](mailto:woohollenhorst@gmail.com)
-- {{< fa brands linkedin >}} **LinkedIn:** [Woo-Sung Hollenhorst](https://www.linkedin.com/in/woo-sung-hollenhorst-b05386220/)
-- {{< fa brands github >}} **GitHub:** [woosunghollenhorst](https://github.com/woosunghollenhorst)
+- {{< fa envelope >}} **Email:** [woohollenhorst@gmail.com](mailto:woohollenhorst@gmail.com){target="_blank"}
+- {{< fa brands linkedin >}} **LinkedIn:** [Woo-Sung Hollenhorst](https://www.linkedin.com/in/woo-sung-hollenhorst-b05386220/){target="_blank"}
+- {{< fa brands github >}} **GitHub:** [woosunghollenhorst](https://github.com/woosunghollenhorst){target="_blank"}
 
 ## Location
 

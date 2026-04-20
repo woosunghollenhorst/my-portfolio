@@ -4,9 +4,9 @@ project:
 
 website:
   title: "Woo-Sung Hollenhorst"
-  favicon: images/favicon.png
+  favicon: images/favicon.svg
   navbar:
-    logo: images/logo.png
+    logo: images/logo.svg
     left:
       - href: index.qmd
         text: Home
@@ -21,7 +21,9 @@ website:
     right:
       - text: CV
         href: cv/cv.pdf
-        target: _blank         # Opens in new tab
+        target: _blank
+      - icon: globe
+        href: travels.html
       - icon: github
         href: https://github.com/woosunghollenhorst
         target: _blank

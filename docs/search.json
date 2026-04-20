@@ -1,143 +1,206 @@
 [
   {
-    "objectID": "reflection.html",
-    "href": "reflection.html",
-    "title": "Reflection",
+    "objectID": "travels.html",
+    "href": "travels.html",
+    "title": "Travels",
     "section": "",
-    "text": "This module introduced me to tools and workflows I hadn’t used before, Quarto, Git, GitHub Pages, and building a website from scratch using code rather than a pre-built template. At first, configuring _quarto.yml and understanding how all the pieces fit together felt overwhelming, but utilizing online guides and supports, made me realize that Quarto was an easy and efficient way of creating a website."
+    "text": "Click on a highlighted country to learn more. Drag to pan and scroll to zoom.\n\n  \n    \n    \n  \n  \n    \n      \n      ×\n    \n    \n    \n  \n  \n  \n    +\n    −\n    Reset\n  \n\n\n  \n    32\n    Countries Visited\n  \n  \n    5\n    Continents\n  \n  \n    16%\n    of the World\n  \n\n\n  \n    \n    Visited\n  \n  \n    \n    Not yet visited"
   },
   {
-    "objectID": "reflection.html#my-journey",
-    "href": "reflection.html#my-journey",
-    "title": "Reflection",
+    "objectID": "travels.html#where-ive-been",
+    "href": "travels.html#where-ive-been",
+    "title": "Travels",
     "section": "",
-    "text": "This module introduced me to tools and workflows I hadn’t used before, Quarto, Git, GitHub Pages, and building a website from scratch using code rather than a pre-built template. At first, configuring _quarto.yml and understanding how all the pieces fit together felt overwhelming, but utilizing online guides and supports, made me realize that Quarto was an easy and efficient way of creating a website."
+    "text": "Click on a highlighted country to learn more. Drag to pan and scroll to zoom.\n\n  \n    \n    \n  \n  \n    \n      \n      ×\n    \n    \n    \n  \n  \n  \n    +\n    −\n    Reset\n  \n\n\n  \n    32\n    Countries Visited\n  \n  \n    5\n    Continents\n  \n  \n    16%\n    of the World\n  \n\n\n  \n    \n    Visited\n  \n  \n    \n    Not yet visited"
   },
   {
-    "objectID": "reflection.html#technical-skills",
-    "href": "reflection.html#technical-skills",
-    "title": "Reflection",
-    "section": "Technical Skills",
-    "text": "Technical Skills\nLearning Git was one of the most valuable takeaways. Updating and keeping track of my projects through the remote repository are skills I will use beyond this module. Working with Quarto also gave me a deeper appreciation for reproducible documents, combining markdown, Python code, and web publishing into one workflow."
-  },
-  {
-    "objectID": "reflection.html#design-choices",
-    "href": "reflection.html#design-choices",
-    "title": "Reflection",
-    "section": "Design Choices",
-    "text": "Design Choices\nI wanted my portfolio to feel modern yet be a reflection of me as a person. I chose a dark theme with a calming background image and translucent content boxes. Customising the SCSS variables and writing my own CSS rules taught me how web styling works at a practical level. Small details like hover effects, rounded borders, and a blurred navigation bar made a noticeable difference in the overall feel."
-  },
-  {
-    "objectID": "reflection.html#challenges",
-    "href": "reflection.html#challenges",
-    "title": "Reflection",
-    "section": "Challenges",
-    "text": "Challenges\nThe biggest challenge was getting things to work consistently across pages, image paths, background images, and CSS selectors all behaved differently depending on folder depth."
-  },
-  {
-    "objectID": "reflection.html#connecting-to-future-goals",
-    "href": "reflection.html#connecting-to-future-goals",
-    "title": "Reflection",
-    "section": "Connecting to Future Goals",
-    "text": "Connecting to Future Goals\nBuilding this portfolio ties directly into my career goals in analytics and technology. Having a professional online presence where I showcase some of my projects, executable code, with a clear narrative is something I can continue to develop and share with potential employers. The technical skills this module required mirrors what I want to do professionally, turning complex work into something easy to understand"
-  },
-  {
-    "objectID": "projects/list/project3.html",
-    "href": "projects/list/project3.html",
-    "title": "Covid-19 & Online Shopping Behavior in Germany",
+    "objectID": "projects/list/project4.html",
+    "href": "projects/list/project4.html",
+    "title": "Swapfiets Marketing Strategy",
     "section": "",
-    "text": "This bachelor thesis explores how the Covid-19 pandemic affected online shopping behavior in Germany. Using a mixed-methods approach combining a survey of 191 participants with 6 in-depth interviews, the study analyses shifts in shopping frequency, spending patterns, product category preferences, and consumer attitudes."
+    "text": "This group project was conducted in partnership with Swapfiets, the world’s largest bicycle subscription service. Our team developed a marketing strategy to increase Swapfiets’ customer base in Karlsruhe, Germany, with a focus on the winter months. We applied the Sinus-Milieus model for market segmentation, conducted primary survey research, and proposed guerrilla marketing campaigns targeting the Escapist milieu.\n\n\n\n\n\n\nNote\n\n\n\nView the full report: Swapfiets Report (PDF)"
   },
   {
-    "objectID": "projects/list/project3.html#overview",
-    "href": "projects/list/project3.html#overview",
-    "title": "Covid-19 & Online Shopping Behavior in Germany",
+    "objectID": "projects/list/project4.html#overview",
+    "href": "projects/list/project4.html#overview",
+    "title": "Swapfiets Marketing Strategy",
     "section": "",
-    "text": "This bachelor thesis explores how the Covid-19 pandemic affected online shopping behavior in Germany. Using a mixed-methods approach combining a survey of 191 participants with 6 in-depth interviews, the study analyses shifts in shopping frequency, spending patterns, product category preferences, and consumer attitudes."
+    "text": "This group project was conducted in partnership with Swapfiets, the world’s largest bicycle subscription service. Our team developed a marketing strategy to increase Swapfiets’ customer base in Karlsruhe, Germany, with a focus on the winter months. We applied the Sinus-Milieus model for market segmentation, conducted primary survey research, and proposed guerrilla marketing campaigns targeting the Escapist milieu.\n\n\n\n\n\n\nNote\n\n\n\nView the full report: Swapfiets Report (PDF)"
   },
   {
-    "objectID": "projects/list/project3.html#full-thesis",
-    "href": "projects/list/project3.html#full-thesis",
-    "title": "Covid-19 & Online Shopping Behavior in Germany",
-    "section": "Full Thesis",
-    "text": "Full Thesis\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf the PDF does not display, you can download it here."
+    "objectID": "projects/list/project4.html#market-segmentation-sinus-milieus",
+    "href": "projects/list/project4.html#market-segmentation-sinus-milieus",
+    "title": "Swapfiets Marketing Strategy",
+    "section": "Market Segmentation: Sinus-Milieus",
+    "text": "Market Segmentation: Sinus-Milieus\n\nimport matplotlib.pyplot as plt\n\nmilieus = ['High Achiever', 'Socio-ecological', 'Escapist', \n           'Movers & Shakers', 'New Middle Class']\nshare = [27, 16, 15, 10, 8]\ncolors = ['#5bcefa', '#7c73ff', '#2ecc71', '#e74c3c', '#f39c12']\n\nfig, ax = plt.subplots(figsize=(8, 6))\nwedges, texts, autotexts = ax.pie(share, labels=milieus, colors=colors,\n                                   autopct='%1.0f%%', startangle=90,\n                                   textprops={'color': 'white', 'fontsize': 11})\nax.set_title('Sinus-Milieus Distribution in Karlsruhe', fontsize=14, color='white')\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "projects/list/project3.html#survey-analysis",
-    "href": "projects/list/project3.html#survey-analysis",
-    "title": "Covid-19 & Online Shopping Behavior in Germany",
-    "section": "Survey Analysis",
-    "text": "Survey Analysis\n\nOnline Shopping Frequency Before the Pandemic\n\nimport matplotlib.pyplot as plt\n\nlabels = ['Rarely', 'Never', 'Monthly', 'Weekly', 'Daily']\nvalues = [44.8, 25.5, 23.4, 5.5, 0.7]\ncolors = ['#5bcefa', '#7c73ff', '#e74c3c', '#2ecc71', '#f39c12']\n\nfig, ax = plt.subplots(figsize=(7, 7))\nwedges, texts, autotexts = ax.pie(values, labels=labels, colors=colors,\n                                   autopct='%1.1f%%', startangle=90,\n                                   textprops={'color': 'white', 'fontsize': 12})\nax.set_title('Online Shopping Frequency Before Covid-19', fontsize=14, color='white')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\nChange in Shopping Frequency After the Pandemic\n\nimport matplotlib.pyplot as plt\n\ncategories = ['Increased\\nsignificantly', 'Increased\\nslightly', 'Remained\\nthe same', \n              'Decreased\\nslightly', 'Decreased\\nsignificantly']\npercentages = [24.8, 56.6, 13.8, 3.4, 1.4]\ncolors = ['#2ecc71', '#5bcefa', '#7c73ff', '#f39c12', '#e74c3c']\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.bar(categories, percentages, color=colors)\nax.set_ylabel('Percentage of Respondents (%)')\nax.set_title('Change in Online Shopping Frequency After Covid-19')\nfor bar, val in zip(bars, percentages):\n    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1, \n            f'{val}%', ha='center', color='white')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\nProduct Categories: Before vs During the Pandemic\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\ncategories = ['Electronics', 'Groceries', 'Clothing', 'Pharmaceuticals', \n              'Home &\\nGarden', 'Entertainment', 'Food']\nbefore = [48, 15, 52, 24, 13, 37, 45]\nduring = [68, 45, 95, 55, 45, 71, 75]\n\nx = np.arange(len(categories))\nwidth = 0.35\n\nfig, ax = plt.subplots(figsize=(12, 6))\nax.bar(x - width/2, before, width, label='Before Pandemic', color='#7c73ff')\nax.bar(x + width/2, during, width, label='During Pandemic', color='#5bcefa')\nax.set_ylabel('Number of Respondents')\nax.set_title('Product Categories Shopped Online: Before vs During Covid-19')\nax.set_xticks(x)\nax.set_xticklabels(categories)\nax.legend()\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\nReasons for Increased Online Shopping\n\nimport matplotlib.pyplot as plt\n\nreasons = ['Limited access to\\nphysical stores', 'Safety concerns', \n           'Convenience', 'Price advantages', 'More free time', 'Other']\ncounts = [73, 64, 53, 52, 23, 8]\ncolors = ['#5bcefa', '#7c73ff', '#2ecc71', '#e74c3c', '#f39c12', '#95a5a6']\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.barh(reasons, counts, color=colors)\nax.set_xlabel('Number of Respondents')\nax.set_title('Reasons for Increased Online Shopping During Covid-19')\nax.invert_yaxis()\nfor bar, val in zip(bars, counts):\n    ax.text(bar.get_width() + 1, bar.get_y() + bar.get_height()/2, \n            str(val), va='center', color='white')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\nStore Preference: Local vs International\n\nimport matplotlib.pyplot as plt\n\nlabels = ['No Preference', 'International', 'Local']\nvalues = [47.6, 38.6, 13.8]\ncolors = ['#7c73ff', '#5bcefa', '#2ecc71']\n\nfig, ax = plt.subplots(figsize=(7, 7))\nwedges, texts, autotexts = ax.pie(values, labels=labels, colors=colors,\n                                   autopct='%1.1f%%', startangle=90,\n                                   textprops={'color': 'white', 'fontsize': 12})\nax.set_title('Preference: Local vs International Online Stores', fontsize=14, color='white')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\nFuture Shopping Intentions\n\nimport matplotlib.pyplot as plt\n\nintentions = ['Yes, more\\nthan now', 'Yes, the same\\nas now', 'Yes, less\\nthan now', 'No, will shop\\nin-person']\ncounts = [18, 86, 32, 9]\ncolors = ['#2ecc71', '#5bcefa', '#f39c12', '#e74c3c']\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.bar(intentions, counts, color=colors)\nax.set_ylabel('Number of Respondents')\nax.set_title('Intention to Continue Online Shopping Post-Pandemic')\nfor bar, val in zip(bars, counts):\n    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1, \n            str(val), ha='center', color='white')\nplt.tight_layout()\nplt.show()"
+    "objectID": "projects/list/project4.html#survey-interest-by-milieu",
+    "href": "projects/list/project4.html#survey-interest-by-milieu",
+    "title": "Swapfiets Marketing Strategy",
+    "section": "Survey: Interest by Milieu",
+    "text": "Survey: Interest by Milieu\n\nimport matplotlib.pyplot as plt\n\nmilieus = ['Movers &\\nShakers', 'High\\nAchiever', 'Escapist', 'New Middle\\nClass']\ninterest = [69.23, 64.29, 62.75, 55.00]\ncolors = ['#2ecc71', '#5bcefa', '#7c73ff', '#f39c12']\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.bar(milieus, interest, color=colors)\nax.set_ylabel('Interest (%)')\nax.set_title('Interest in Swapfiets Subscription by Milieu')\nax.set_ylim(0, 100)\nfor bar, val in zip(bars, interest):\n    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 2,\n            f'{val}%', ha='center', color='white')\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "projects/list/project3.html#key-findings",
-    "href": "projects/list/project3.html#key-findings",
-    "title": "Covid-19 & Online Shopping Behavior in Germany",
+    "objectID": "projects/list/project4.html#potential-market-population",
+    "href": "projects/list/project4.html#potential-market-population",
+    "title": "Swapfiets Marketing Strategy",
+    "section": "Potential Market Population",
+    "text": "Potential Market Population\n\nimport matplotlib.pyplot as plt\n\ngroups = ['High Achiever', 'Escapist', 'Movers & Shakers', \n          'New Middle Class', '18-24 Year Olds', 'Chinese Students']\npotential = [53728, 29314, 21429, 13619, 23137, 1780]\ncolors = ['#5bcefa', '#7c73ff', '#2ecc71', '#f39c12', '#e74c3c', '#95a5a6']\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.barh(groups, potential, color=colors)\nax.set_xlabel('Potential Market Population')\nax.set_title('Estimated Market Potential by Target Group in Karlsruhe')\nax.invert_yaxis()\nfor bar, val in zip(bars, potential):\n    ax.text(bar.get_width() + 500, bar.get_y() + bar.get_height()/2,\n            f'{val:,}', va='center', color='white')\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "projects/list/project4.html#winter-cycling-preferences",
+    "href": "projects/list/project4.html#winter-cycling-preferences",
+    "title": "Swapfiets Marketing Strategy",
+    "section": "Winter Cycling Preferences",
+    "text": "Winter Cycling Preferences\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\ngadgets = ['Winter Tires', 'Earmuffs', 'Reflective Vest', 'Face Mask', \n           'Gloves', 'Rain Jacket', 'Water Bottle', 'Other']\nescapist = [14, 17, 15, 4, 1, 8, 7, 2]\nnew_middle = [5, 3, 5, 8, 12, 5, 3, 3]\nhigh_achiever = [13, 8, 8, 8, 6, 7, 8, 0]\nmovers = [1, 3, 5, 11, 5, 2, 1, 1]\n\nx = np.arange(len(gadgets))\nwidth = 0.2\n\nfig, ax = plt.subplots(figsize=(12, 6))\nax.bar(x - 1.5*width, escapist, width, label='Escapist', color='#5bcefa')\nax.bar(x - 0.5*width, new_middle, width, label='New Middle Class', color='#7c73ff')\nax.bar(x + 0.5*width, high_achiever, width, label='High Achiever', color='#2ecc71')\nax.bar(x + 1.5*width, movers, width, label='Movers & Shakers', color='#e74c3c')\nax.set_ylabel('Number of Respondents')\nax.set_title('Winter Cycling Gadget Preferences by Milieu')\nax.set_xticks(x)\nax.set_xticklabels(gadgets, rotation=30, ha='right')\nax.legend()\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "projects/list/project4.html#key-findings",
+    "href": "projects/list/project4.html#key-findings",
+    "title": "Swapfiets Marketing Strategy",
     "section": "Key Findings",
-    "text": "Key Findings\n\n81.4% of respondents reported increased online shopping activity during the pandemic\nHome & Garden saw the largest growth at 246% increase in online purchases\nLimited store access was the top reason for increased online shopping, followed by safety concerns\nInternational stores were preferred over local ones by nearly 3 to 1 among those with a preference\n59% intended to maintain their pandemic-level online shopping activity going forward"
+    "text": "Key Findings\n\nEscapist milieu was selected as the primary target group due to the greatest market potential (~29,300 people) and strongest alignment with Swapfiets’ service\nChinese students at KIT represented a high-potential niche with 90.91% interest rate, driven by an existing bike-sharing culture\nWinter tires were the most requested addition across all milieus, with 33 total responses\nMarketing strategy proposed poster campaigns and guerrilla marketing including mural art and a cycling parade"
   },
   {
-    "objectID": "projects/list/project3.html#reflection",
-    "href": "projects/list/project3.html#reflection",
-    "title": "Covid-19 & Online Shopping Behavior in Germany",
+    "objectID": "projects/list/project4.html#reflection",
+    "href": "projects/list/project4.html#reflection",
+    "title": "Swapfiets Marketing Strategy",
     "section": "Reflection",
-    "text": "Reflection\nThis bachelor thesis was my first experience conducting such in-depth independent academic research from start to finish. Designing the mixed-methods approach, combining a survey of 191 participants with in-depth interviews, taught me how quantitative and qualitative data complement each other. The survey gave me the broad patterns, but it was the interviews that revealed the emotions and reasoning behind the numbers.\nOne of the biggest challenges was collecting data on the streets of Frankfurt, Heidelberg, and Bensheim. Approaching strangers, dealing with refusals, and managing different survey conditions.\nLooking back, I would improve the sample diversity and increase the interview pool. The results skewed heavily towards younger demographics, which limited the conclusions I could draw about older populations. This experience gave me a deeper understanding for research design and the importance of addressing bias early.\nThis project ultimately sparked my interest in data analytics and consumer behavior, two fields I am now pursuing in my MSc at DCU. The skills I developed here, from data collection to statistical analysis, and academic writing, continue to contribute to my work today."
+    "text": "Reflection\nThis was my first experience working with a company on a live business problem, through the university course. Leading a team of five through research, survey design, and strategy taught me how to combine different perspectives into one clear deliverable. Conducting street surveys in Karlsruhe gave me hands-on experience with primary data collection and its challenges. Our findings eventually led to the execution of a similar strategy by the company."
   },
   {
-    "objectID": "projects/list/project1.html",
-    "href": "projects/list/project1.html",
-    "title": "LLM Sentiment Analysis Comparison",
+    "objectID": "projects/list/project2.html",
+    "href": "projects/list/project2.html",
+    "title": "Sales Performance Dashboard",
     "section": "",
-    "text": "This project compares two approaches to financial news sentiment classification: fine-tuning a pre-trained BERT model versus using a local Gemma 4 model with zero-shot and few-shot prompting.\n\n\n\n\n\n\nTipFull Notebook\n\n\n\nDownload the complete Jupyter notebook with all code and outputs: Download Notebook"
+    "text": "This project involved building a multi-page Power BI dashboard for BuildRight Ltd., a fictional company selling products across five global regions. The dashboard provides insights into sales performance, customer distribution, product profitability, and sales team effectiveness."
   },
   {
-    "objectID": "projects/list/project1.html#overview",
-    "href": "projects/list/project1.html#overview",
-    "title": "LLM Sentiment Analysis Comparison",
+    "objectID": "projects/list/project2.html#overview",
+    "href": "projects/list/project2.html#overview",
+    "title": "Sales Performance Dashboard",
     "section": "",
-    "text": "This project compares two approaches to financial news sentiment classification: fine-tuning a pre-trained BERT model versus using a local Gemma 4 model with zero-shot and few-shot prompting.\n\n\n\n\n\n\nTipFull Notebook\n\n\n\nDownload the complete Jupyter notebook with all code and outputs: Download Notebook"
+    "text": "This project involved building a multi-page Power BI dashboard for BuildRight Ltd., a fictional company selling products across five global regions. The dashboard provides insights into sales performance, customer distribution, product profitability, and sales team effectiveness."
   },
   {
-    "objectID": "projects/list/project1.html#dataset-distribution",
-    "href": "projects/list/project1.html#dataset-distribution",
-    "title": "LLM Sentiment Analysis Comparison",
-    "section": "Dataset Distribution",
-    "text": "Dataset Distribution\n\nimport matplotlib.pyplot as plt\n\nlabels = ['Neutral', 'Positive', 'Negative']\ncounts = [3931, 3626, 2443]\ncolors = ['#5bcefa', '#7c73ff', '#e74c3c']\n\nfig, ax = plt.subplots(figsize=(8, 5))\nax.bar(labels, counts, color=colors)\nax.set_title('Sentiment Distribution (10,000 Sample)')\nax.set_ylabel('Count')\nplt.tight_layout()\nplt.show()"
+    "objectID": "projects/list/project2.html#dashboard-preview",
+    "href": "projects/list/project2.html#dashboard-preview",
+    "title": "Sales Performance Dashboard",
+    "section": "Dashboard Preview",
+    "text": "Dashboard Preview\n\n\n\n\n\n\nNote\n\n\n\nThe full interactive dashboard was built in Power BI. Below are screenshots of each page, followed by Python-based analysis recreating key insights.\n\n\n\n\n\nOverview Page\n\n\n\n\n\nCustomer & Market Page\n\n\n\n\n\nProduct Page\n\n\n\n\n\nSales Page\n\n\n\n\n\nReport Page"
   },
   {
-    "objectID": "projects/list/project1.html#methodology",
-    "href": "projects/list/project1.html#methodology",
-    "title": "LLM Sentiment Analysis Comparison",
-    "section": "Methodology",
-    "text": "Methodology\n\nBERT: Fine-tuned bert-base-uncased with Optuna hyperparameter optimisation on a 3-class classification head\nGemma 4: Tested with zero-shot and few-shot prompting strategies using the E2B variant\nEvaluation: Accuracy, precision, recall, and F1-score (macro) across all models"
+    "objectID": "projects/list/project2.html#sales-by-product",
+    "href": "projects/list/project2.html#sales-by-product",
+    "title": "Sales Performance Dashboard",
+    "section": "Sales by Product",
+    "text": "Sales by Product\n\nimport matplotlib.pyplot as plt\n\nproducts = ['Building Material', 'Laptop', 'Smartphone', 'Car', \n            'Insurance Plan', 'Solar Panel', 'Monitor', 'Tablet', 'Printer']\nsales = [3487.25, 3486.30, 2632.46, 2592.95, \n         2345.24, 1219.14, 664.71, 203.83, 124.57]\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.barh(products, sales, color='#5bcefa')\nax.set_xlabel('Sales ($)')\nax.set_title('Total Sales by Product (2024)')\nax.invert_yaxis()\nfor bar, val in zip(bars, sales):\n    ax.text(bar.get_width() + 50, bar.get_y() + bar.get_height()/2, \n            f'${val:,.0f}', va='center', color='white')\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "projects/list/project1.html#model-performance-comparison",
-    "href": "projects/list/project1.html#model-performance-comparison",
-    "title": "LLM Sentiment Analysis Comparison",
-    "section": "Model Performance Comparison",
-    "text": "Model Performance Comparison\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nresults = pd.DataFrame({\n    'Model': ['BERT (Optimised)', 'Gemma 4 (Zero-Shot)', 'Gemma 4 (Few-Shot)'],\n    'Accuracy': [0.8000, 0.7480, 0.6834],\n    'Precision': [0.8001, 0.7664, 0.7380],\n    'Recall': [0.8100, 0.7645, 0.7118],\n    'F1 (Macro)': [0.8040, 0.7605, 0.6725]\n}).set_index('Model')\n\nfig, ax = plt.subplots(figsize=(10, 5))\nresults.plot(kind='bar', ax=ax, colormap='Set2')\nax.set_ylabel('Score')\nax.set_ylim(0, 1.05)\nax.set_xticklabels(ax.get_xticklabels(), rotation=15, ha='right')\nax.legend(loc='lower right')\nax.set_title('Model Performance Comparison')\nplt.tight_layout()\nplt.show()"
+    "objectID": "projects/list/project2.html#year-over-year-sales-change",
+    "href": "projects/list/project2.html#year-over-year-sales-change",
+    "title": "Sales Performance Dashboard",
+    "section": "Year-over-Year Sales Change",
+    "text": "Year-over-Year Sales Change\n\nimport matplotlib.pyplot as plt\n\nproducts = ['Building Material', 'Insurance Plan', 'Laptop', 'Smartphone', \n            'Car', 'Solar Panel', 'Monitor', 'Tablet', 'Printer', 'Flight Ticket']\nyoy_change = [1006.29, 209.39, 129.78, 93.92, \n              27.31, -41.47, -72.93, -86.87, -88.87, -100.00]\ncolors = ['#2ecc71' if x &gt;= 0 else '#e74c3c' for x in yoy_change]\n\nfig, ax = plt.subplots(figsize=(10, 5))\nax.barh(products, yoy_change, color=colors)\nax.set_xlabel('YoY Change (%)')\nax.set_title('Sales Change Year-over-Year by Product')\nax.axvline(x=0, color='white', linewidth=0.8)\nax.invert_yaxis()\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "projects/list/project1.html#inference-speed",
-    "href": "projects/list/project1.html#inference-speed",
-    "title": "LLM Sentiment Analysis Comparison",
-    "section": "Inference Speed",
-    "text": "Inference Speed\n\nimport matplotlib.pyplot as plt\n\nmodels = ['BERT (500 samples)', 'Gemma 4 (500 est.)']\ntimes = [5.53, 50.5]\n\nfig, ax = plt.subplots(figsize=(6, 4))\nax.bar(models, times, color=['#5bcefa', '#e74c3c'])\nax.set_ylabel('Time (seconds)')\nax.set_title('Inference Time Comparison')\nplt.tight_layout()\nplt.show()"
+    "objectID": "projects/list/project2.html#regional-sales-performance",
+    "href": "projects/list/project2.html#regional-sales-performance",
+    "title": "Sales Performance Dashboard",
+    "section": "Regional Sales Performance",
+    "text": "Regional Sales Performance\n\nimport matplotlib.pyplot as plt\n\nregions = ['South America', 'Africa', 'North America', 'Europe', 'Asia']\ncurrent = [4794.35, 3722.62, 3250.13, 2936.60, 2052.75]\nprevious = [2371.57, 6929.22, 2375.61, 1833.07, 1575.04]\n\nx = range(len(regions))\nwidth = 0.35\n\nfig, ax = plt.subplots(figsize=(10, 5))\nax.bar([i - width/2 for i in x], current, width, label='2024', color='#5bcefa')\nax.bar([i + width/2 for i in x], previous, width, label='2023', color='#7c73ff')\nax.set_ylabel('Sales ($)')\nax.set_title('Regional Sales: 2024 vs 2023')\nax.set_xticks(x)\nax.set_xticklabels(regions)\nax.legend()\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "projects/list/project1.html#error-analysis",
-    "href": "projects/list/project1.html#error-analysis",
-    "title": "LLM Sentiment Analysis Comparison",
-    "section": "Error Analysis",
-    "text": "Error Analysis\n\nimport matplotlib.pyplot as plt\n\ncategories = ['BERT correct,\\nGemma wrong', 'Gemma correct,\\nBERT wrong']\ncounts = [84, 58]\n\nfig, ax = plt.subplots(figsize=(6, 4))\nax.bar(categories, counts, color=['#5bcefa', '#e74c3c'])\nax.set_ylabel('Number of Samples')\nax.set_title('Disagreement Analysis')\nplt.tight_layout()\nplt.show()"
+    "objectID": "projects/list/project2.html#sales-channel-distribution",
+    "href": "projects/list/project2.html#sales-channel-distribution",
+    "title": "Sales Performance Dashboard",
+    "section": "Sales Channel Distribution",
+    "text": "Sales Channel Distribution\n\nimport matplotlib.pyplot as plt\n\nchannels = ['Offline', 'Online']\nsales = [9800, 6960]\ncolors = ['#5bcefa', '#7c73ff']\n\nfig, ax = plt.subplots(figsize=(6, 6))\nwedges, texts, autotexts = ax.pie(sales, labels=channels, colors=colors, \n                                   autopct='%1.0f%%', startangle=90,\n                                   textprops={'color': 'white', 'fontsize': 14})\nax.set_title('Sales Distribution by Channel')\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "projects/list/project1.html#key-findings",
-    "href": "projects/list/project1.html#key-findings",
-    "title": "LLM Sentiment Analysis Comparison",
+    "objectID": "projects/list/project2.html#key-findings",
+    "href": "projects/list/project2.html#key-findings",
+    "title": "Sales Performance Dashboard",
     "section": "Key Findings",
-    "text": "Key Findings\n\nBERT outperformed Gemma 4 across all metrics when fine-tuned on domain-specific data, achieving 80% accuracy vs 74.8% for Gemma zero-shot\nBERT was ~9x faster for inference — 11.1ms per sample vs 101ms for Gemma 4\nGemma 4 zero-shot performed reasonably well without any training, showing strong general language understanding\nFew-shot prompting did not improve over zero-shot for this task, dropping to 68.3% accuracy\nError patterns showed BERT handled nuanced neutral sentiment better, while Gemma was stronger on clearly positive/negative text"
+    "text": "Key Findings\n\nDifferent KPI’s and performance metrics could be identified through the creation of a PowerBI dashboard"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Covid-19 & Online Shopping Behavior in Germany\n\n\n\nResearch\n\nConsumer Behavior\n\nE-Commerce\n\n\n\nBachelor thesis investigating the pandemic’s impact on German consumer behavior in e-commerce.\n\n\n\nWoo-Sung Hollenhorst\n\n\nMay 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nLLM Sentiment Analysis Comparison\n\n\n\nNLP\n\nMachine Learning\n\nDeep Learning\n\n\n\nComparing BERT fine-tuning against Gemma 4 for classifying financial news sentiment.\n\n\n\nWoo-Sung Hollenhorst\n\n\nApr 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSales Performance Dashboard\n\n\n\nData Visualisation\n\nBusiness Intelligence\n\nPower BI\n\n\n\nInteractive Power BI dashboard analysing sales, profitability, and regional performance for BuildRight Ltd.\n\n\n\nWoo-Sung Hollenhorst\n\n\nApr 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSwapfiets Marketing Strategy\n\n\n\nMarketing\n\nMarket Research\n\nStrategy\n\n\n\nGroup project developing a marketing strategy for Swapfiets bicycle subscription service in Karlsruhe, Germany.\n\n\n\nWoo-Sung Hollenhorst\n\n\nJan 28, 2020\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Woo-Sung Hollenhorst",
+    "section": "",
+    "text": "I’m a Business Analytics Master student at DCU Business School with a passion for data science, strategy, and technology. Welcome to my portfolio - explore my projects, learn about my background. If I caught your interest, feel free to reach out to me. Enjoy!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea. I’m currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and overall data visualisation."
+  },
+  {
+    "objectID": "about.html#who-i-am",
+    "href": "about.html#who-i-am",
+    "title": "About Me",
+    "section": "",
+    "text": "My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea. I’m currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and overall data visualisation."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
+    "section": "Background",
+    "text": "Background\nBefore moving to Ireland, I worked in sales, business intelligence, and project management across Germany and Poland, roles that taught me how to translate complex ideas into action. I am fluent in English, German, and Korean, I thrive in intercultural environments. Whether I’m analysing trends or building dashboards, I’m driven by creating work that helps people make better decisions. I have experience in demand forecasting, sentiment analysis, and business strategy. I’ve also worked with tools like Python, BERT, and various machine learning frameworks to tackle complex analytical challenges."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About Me",
+    "section": "Skills",
+    "text": "Skills\n\nProgramming: Python, R, SQL\nData Science: Machine Learning, NLP, Deep Learning\nTools: PowerBi, Git, Jupyter, Quarto\nBusiness: Strategy Analysis, Financial Modelling, Market Research"
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About Me",
+    "section": "Goals",
+    "text": "Goals\nI’m looking to build a career at the intersection of business and technology, with a focus on analytics and data-driven decision making. I’m currently exploring opportunities within the EU."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always open to new opportunities, collaborations, and conversations. Feel free to reach out through any of the channels below."
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always open to new opportunities, collaborations, and conversations. Feel free to reach out through any of the channels below."
+  },
+  {
+    "objectID": "contact.html#contact-details",
+    "href": "contact.html#contact-details",
+    "title": "Contact",
+    "section": "Contact Details",
+    "text": "Contact Details\n\n Email: woohollenhorst@gmail.com\n LinkedIn: Woo-Sung Hollenhorst\n GitHub: woosunghollenhorst"
+  },
+  {
+    "objectID": "contact.html#location",
+    "href": "contact.html#location",
+    "title": "Contact",
+    "section": "Location",
+    "text": "Location\nCurrently based in Dublin, Ireland. Open to opportunities across the EU."
   },
   {
     "objectID": "notebooks/sentiment-analysis.html",
@@ -203,199 +266,143 @@
     "text": "Inference Time Comparison\nDeployment cost and scalability\n\ntiming_sample = test_texts[:500]\n\n#BERT inference timing\nbert_model_timing = AutoModelForSequenceClassification.from_pretrained(\"./bert_optimised_model\").to(\"cuda\")\nbert_model_timing.eval()\n\ntorch.cuda.synchronize()\nstart = time.time()\nfor sentence in timing_sample:\n    inputs = tokenizer(sentence, truncation=True, max_length=256, return_tensors=\"pt\").to(\"cuda\")\n    with torch.no_grad():\n        _ = bert_model_timing(**inputs).logits\ntorch.cuda.synchronize()\nbert_time = time.time() - start\n\nprint(f\"BERT: {bert_time:.2f}s for 500 samples ({bert_time/500*1000:.1f}ms per sample)\")\n\n#Gemma inference timing\ntorch.cuda.synchronize()\nstart = time.time()\nfor sentence in timing_sample[:50]:\n    prompt = build_zero_shot(sentence)\n    messages = [{\"role\": \"user\", \"content\": prompt}]\n    inputs = gemma_tokenizer.apply_chat_template(messages, return_tensors=\"pt\", return_dict=True, add_generation_prompt=True).to(\"cuda\")\n    with torch.no_grad():\n        _ = gemma_model.generate(**inputs, max_new_tokens=10, do_sample=False)\ntorch.cuda.synchronize()\ngemma_time = time.time() - start\ngemma_time_500 = gemma_time / 50 * 500\n\nprint(f\"Gemma 4: {gemma_time:.2f}s for 50 samples ({gemma_time/50*1000:.1f}ms per sample)\")\nprint(f\"Gemma 4 (extrapolated to 500): {gemma_time_500:.1f}s\")\nprint(f\"\\nBERT is ~{gemma_time_500/bert_time:.0f}x faster than Gemma 4 for classification\")\n\nfig, ax = plt.subplots(figsize=(6, 4))\nax.bar([\"BERT (500)\", \"Gemma 4 (500 est.)\"], [bert_time, gemma_time_500], color=[\"#3498db\", \"#e74c3c\"])\nax.set_ylabel(\"Time (seconds)\")\nax.set_title(\"Inference Time: 500 Samples\")\nplt.tight_layout()\nplt.show()\n\n\n\n\nBERT: 5.53s for 500 samples (11.1ms per sample)\nGemma 4: 5.05s for 50 samples (101.0ms per sample)\nGemma 4 (extrapolated to 500): 50.5s\n\nBERT is ~9x faster than Gemma 4 for classification"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "projects/list/project1.html",
+    "href": "projects/list/project1.html",
+    "title": "LLM Sentiment Analysis Comparison",
     "section": "",
-    "text": "I’m always open to new opportunities, collaborations, and conversations. Feel free to reach out through any of the channels below."
+    "text": "This project compares two approaches to financial news sentiment classification: fine-tuning a pre-trained BERT model versus using a local Gemma 4 model with zero-shot and few-shot prompting.\n\n\n\n\n\n\nTipFull Notebook\n\n\n\nDownload the complete Jupyter notebook with all code and outputs: View Notebook"
   },
   {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact",
+    "objectID": "projects/list/project1.html#overview",
+    "href": "projects/list/project1.html#overview",
+    "title": "LLM Sentiment Analysis Comparison",
     "section": "",
-    "text": "I’m always open to new opportunities, collaborations, and conversations. Feel free to reach out through any of the channels below."
+    "text": "This project compares two approaches to financial news sentiment classification: fine-tuning a pre-trained BERT model versus using a local Gemma 4 model with zero-shot and few-shot prompting.\n\n\n\n\n\n\nTipFull Notebook\n\n\n\nDownload the complete Jupyter notebook with all code and outputs: View Notebook"
   },
   {
-    "objectID": "contact.html#contact-details",
-    "href": "contact.html#contact-details",
-    "title": "Contact",
-    "section": "Contact Details",
-    "text": "Contact Details\n\n Email: woohollenhorst@gmail.com\n LinkedIn: Woo-Sung Hollenhorst\n GitHub: woosunghollenhorst"
+    "objectID": "projects/list/project1.html#dataset-distribution",
+    "href": "projects/list/project1.html#dataset-distribution",
+    "title": "LLM Sentiment Analysis Comparison",
+    "section": "Dataset Distribution",
+    "text": "Dataset Distribution\n\nimport matplotlib.pyplot as plt\n\nlabels = ['Neutral', 'Positive', 'Negative']\ncounts = [3931, 3626, 2443]\ncolors = ['#5bcefa', '#7c73ff', '#e74c3c']\n\nfig, ax = plt.subplots(figsize=(8, 5))\nax.bar(labels, counts, color=colors)\nax.set_title('Sentiment Distribution (10,000 Sample)')\nax.set_ylabel('Count')\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "contact.html#location",
-    "href": "contact.html#location",
-    "title": "Contact",
-    "section": "Location",
-    "text": "Location\nCurrently based in Dublin, Ireland. Open to opportunities across the EU."
+    "objectID": "projects/list/project1.html#methodology",
+    "href": "projects/list/project1.html#methodology",
+    "title": "LLM Sentiment Analysis Comparison",
+    "section": "Methodology",
+    "text": "Methodology\n\nBERT: Fine-tuned bert-base-uncased with Optuna hyperparameter optimisation on a 3-class classification head\nGemma 4: Tested with zero-shot and few-shot prompting strategies using the E2B variant\nEvaluation: Accuracy, precision, recall, and F1-score (macro) across all models"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea. I’m currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and overall data visualisation."
+    "objectID": "projects/list/project1.html#model-performance-comparison",
+    "href": "projects/list/project1.html#model-performance-comparison",
+    "title": "LLM Sentiment Analysis Comparison",
+    "section": "Model Performance Comparison",
+    "text": "Model Performance Comparison\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nresults = pd.DataFrame({\n    'Model': ['BERT (Optimised)', 'Gemma 4 (Zero-Shot)', 'Gemma 4 (Few-Shot)'],\n    'Accuracy': [0.8000, 0.7480, 0.6834],\n    'Precision': [0.8001, 0.7664, 0.7380],\n    'Recall': [0.8100, 0.7645, 0.7118],\n    'F1 (Macro)': [0.8040, 0.7605, 0.6725]\n}).set_index('Model')\n\nfig, ax = plt.subplots(figsize=(10, 5))\nresults.plot(kind='bar', ax=ax, colormap='Set2')\nax.set_ylabel('Score')\nax.set_ylim(0, 1.05)\nax.set_xticklabels(ax.get_xticklabels(), rotation=15, ha='right')\nax.legend(loc='lower right')\nax.set_title('Model Performance Comparison')\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "about.html#who-i-am",
-    "href": "about.html#who-i-am",
-    "title": "About Me",
-    "section": "",
-    "text": "My name is Woo-Sung Hollenhorst, a German-Korean business analytics student. I grew up between Germany and South Korea. I’m currently pursuing my MSc in Business Analytics at Dublin City University, building on skills in SQL, Python, and overall data visualisation."
+    "objectID": "projects/list/project1.html#inference-speed",
+    "href": "projects/list/project1.html#inference-speed",
+    "title": "LLM Sentiment Analysis Comparison",
+    "section": "Inference Speed",
+    "text": "Inference Speed\n\nimport matplotlib.pyplot as plt\n\nmodels = ['BERT (500 samples)', 'Gemma 4 (500 est.)']\ntimes = [5.53, 50.5]\n\nfig, ax = plt.subplots(figsize=(6, 4))\nax.bar(models, times, color=['#5bcefa', '#e74c3c'])\nax.set_ylabel('Time (seconds)')\nax.set_title('Inference Time Comparison')\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About Me",
-    "section": "Background",
-    "text": "Background\nBefore moving to Ireland, I worked in sales, business intelligence, and project management across Germany and Poland, roles that taught me how to translate complex ideas into action. I am fluent in English, German, and Korean, I thrive in intercultural environments. Whether I’m analysing trends or building dashboards, I’m driven by creating work that helps people make better decisions. I have experience in demand forecasting, sentiment analysis, and business strategy. I’ve also worked with tools like Python, BERT, and various machine learning frameworks to tackle complex analytical challenges."
+    "objectID": "projects/list/project1.html#error-analysis",
+    "href": "projects/list/project1.html#error-analysis",
+    "title": "LLM Sentiment Analysis Comparison",
+    "section": "Error Analysis",
+    "text": "Error Analysis\n\nimport matplotlib.pyplot as plt\n\ncategories = ['BERT correct,\\nGemma wrong', 'Gemma correct,\\nBERT wrong']\ncounts = [84, 58]\n\nfig, ax = plt.subplots(figsize=(6, 4))\nax.bar(categories, counts, color=['#5bcefa', '#e74c3c'])\nax.set_ylabel('Number of Samples')\nax.set_title('Disagreement Analysis')\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "About Me",
-    "section": "Skills",
-    "text": "Skills\n\nProgramming: Python, R, SQL\nData Science: Machine Learning, NLP, Deep Learning\nTools: PowerBi, Git, Jupyter, Quarto\nBusiness: Strategy Analysis, Financial Modelling, Market Research"
-  },
-  {
-    "objectID": "about.html#goals",
-    "href": "about.html#goals",
-    "title": "About Me",
-    "section": "Goals",
-    "text": "Goals\nI’m looking to build a career at the intersection of business and technology, with a focus on analytics and data-driven decision making. I’m currently exploring opportunities within the EU."
-  },
-  {
-    "objectID": "about.html#my-journey",
-    "href": "about.html#my-journey",
-    "title": "About Me",
-    "section": "My Journey",
-    "text": "My Journey\n\n\n\n\n\ntimeline\n    title My Journey\n    2018 : Started International Business\n         : Karlshochschule, Germany\n    2020 : Swapfiets Marketing Project\n         : Company Collaboration\n    2022 : Sales & BI Roles\n         : Germany & Poland\n    2024 : Bachelor Thesis\n         : Covid-19 & E-Commerce Research\n    2024 : Started MSc Business Analytics\n         : Dublin City University\n    2025 : LLM Sentiment Analysis\n         : BERT vs Gemma 4 Comparison\n    2026 : Portfolio Launch\n         : Built with Quarto & Python"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Woo-Sung Hollenhorst",
-    "section": "",
-    "text": "I’m a Business Analytics Master student at DCU Business School with a passion for data science, strategy, and technology. Welcome to my portfolio - explore my projects, learn about my background. If I caught your interest, feel free to reach out to me. Enjoy!"
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Covid-19 & Online Shopping Behavior in Germany\n\n\n\nResearch\n\nConsumer Behavior\n\nE-Commerce\n\n\n\nBachelor thesis investigating the pandemic’s impact on German consumer behavior in e-commerce.\n\n\n\nWoo-Sung Hollenhorst\n\n\nMay 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nLLM Sentiment Analysis Comparison\n\n\n\nNLP\n\nMachine Learning\n\nDeep Learning\n\n\n\nComparing BERT fine-tuning against Gemma 4 for classifying financial news sentiment.\n\n\n\nWoo-Sung Hollenhorst\n\n\nApr 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSales Performance Dashboard\n\n\n\nData Visualisation\n\nBusiness Intelligence\n\nPower BI\n\n\n\nInteractive Power BI dashboard analysing sales, profitability, and regional performance for BuildRight Ltd.\n\n\n\nWoo-Sung Hollenhorst\n\n\nApr 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSwapfiets Marketing Strategy\n\n\n\nMarketing\n\nMarket Research\n\nStrategy\n\n\n\nGroup project developing a marketing strategy for Swapfiets bicycle subscription service in Karlsruhe, Germany.\n\n\n\nWoo-Sung Hollenhorst\n\n\nJan 28, 2020\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/list/project2.html",
-    "href": "projects/list/project2.html",
-    "title": "Sales Performance Dashboard",
-    "section": "",
-    "text": "This project involved building a multi-page Power BI dashboard for BuildRight Ltd., a fictional company selling products across five global regions. The dashboard provides insights into sales performance, customer distribution, product profitability, and sales team effectiveness."
-  },
-  {
-    "objectID": "projects/list/project2.html#overview",
-    "href": "projects/list/project2.html#overview",
-    "title": "Sales Performance Dashboard",
-    "section": "",
-    "text": "This project involved building a multi-page Power BI dashboard for BuildRight Ltd., a fictional company selling products across five global regions. The dashboard provides insights into sales performance, customer distribution, product profitability, and sales team effectiveness."
-  },
-  {
-    "objectID": "projects/list/project2.html#dashboard-preview",
-    "href": "projects/list/project2.html#dashboard-preview",
-    "title": "Sales Performance Dashboard",
-    "section": "Dashboard Preview",
-    "text": "Dashboard Preview\n\n\n\n\n\n\nNote\n\n\n\nThe full interactive dashboard was built in Power BI. Below are screenshots of each page, followed by Python-based analysis recreating key insights.\n\n\n\n\n\nOverview Page\n\n\n\n\n\nCustomer & Market Page\n\n\n\n\n\nProduct Page\n\n\n\n\n\nSales Page\n\n\n\n\n\nReport Page"
-  },
-  {
-    "objectID": "projects/list/project2.html#sales-by-product",
-    "href": "projects/list/project2.html#sales-by-product",
-    "title": "Sales Performance Dashboard",
-    "section": "Sales by Product",
-    "text": "Sales by Product\n\nimport matplotlib.pyplot as plt\n\nproducts = ['Building Material', 'Laptop', 'Smartphone', 'Car', \n            'Insurance Plan', 'Solar Panel', 'Monitor', 'Tablet', 'Printer']\nsales = [3487.25, 3486.30, 2632.46, 2592.95, \n         2345.24, 1219.14, 664.71, 203.83, 124.57]\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.barh(products, sales, color='#5bcefa')\nax.set_xlabel('Sales ($)')\nax.set_title('Total Sales by Product (2024)')\nax.invert_yaxis()\nfor bar, val in zip(bars, sales):\n    ax.text(bar.get_width() + 50, bar.get_y() + bar.get_height()/2, \n            f'${val:,.0f}', va='center', color='white')\nplt.tight_layout()\nplt.show()"
-  },
-  {
-    "objectID": "projects/list/project2.html#year-over-year-sales-change",
-    "href": "projects/list/project2.html#year-over-year-sales-change",
-    "title": "Sales Performance Dashboard",
-    "section": "Year-over-Year Sales Change",
-    "text": "Year-over-Year Sales Change\n\nimport matplotlib.pyplot as plt\n\nproducts = ['Building Material', 'Insurance Plan', 'Laptop', 'Smartphone', \n            'Car', 'Solar Panel', 'Monitor', 'Tablet', 'Printer', 'Flight Ticket']\nyoy_change = [1006.29, 209.39, 129.78, 93.92, \n              27.31, -41.47, -72.93, -86.87, -88.87, -100.00]\ncolors = ['#2ecc71' if x &gt;= 0 else '#e74c3c' for x in yoy_change]\n\nfig, ax = plt.subplots(figsize=(10, 5))\nax.barh(products, yoy_change, color=colors)\nax.set_xlabel('YoY Change (%)')\nax.set_title('Sales Change Year-over-Year by Product')\nax.axvline(x=0, color='white', linewidth=0.8)\nax.invert_yaxis()\nplt.tight_layout()\nplt.show()"
-  },
-  {
-    "objectID": "projects/list/project2.html#regional-sales-performance",
-    "href": "projects/list/project2.html#regional-sales-performance",
-    "title": "Sales Performance Dashboard",
-    "section": "Regional Sales Performance",
-    "text": "Regional Sales Performance\n\nimport matplotlib.pyplot as plt\n\nregions = ['South America', 'Africa', 'North America', 'Europe', 'Asia']\ncurrent = [4794.35, 3722.62, 3250.13, 2936.60, 2052.75]\nprevious = [2371.57, 6929.22, 2375.61, 1833.07, 1575.04]\n\nx = range(len(regions))\nwidth = 0.35\n\nfig, ax = plt.subplots(figsize=(10, 5))\nax.bar([i - width/2 for i in x], current, width, label='2024', color='#5bcefa')\nax.bar([i + width/2 for i in x], previous, width, label='2023', color='#7c73ff')\nax.set_ylabel('Sales ($)')\nax.set_title('Regional Sales: 2024 vs 2023')\nax.set_xticks(x)\nax.set_xticklabels(regions)\nax.legend()\nplt.tight_layout()\nplt.show()"
-  },
-  {
-    "objectID": "projects/list/project2.html#sales-channel-distribution",
-    "href": "projects/list/project2.html#sales-channel-distribution",
-    "title": "Sales Performance Dashboard",
-    "section": "Sales Channel Distribution",
-    "text": "Sales Channel Distribution\n\nimport matplotlib.pyplot as plt\n\nchannels = ['Offline', 'Online']\nsales = [9800, 6960]\ncolors = ['#5bcefa', '#7c73ff']\n\nfig, ax = plt.subplots(figsize=(6, 6))\nwedges, texts, autotexts = ax.pie(sales, labels=channels, colors=colors, \n                                   autopct='%1.0f%%', startangle=90,\n                                   textprops={'color': 'white', 'fontsize': 14})\nax.set_title('Sales Distribution by Channel')\nplt.tight_layout()\nplt.show()"
-  },
-  {
-    "objectID": "projects/list/project2.html#key-findings",
-    "href": "projects/list/project2.html#key-findings",
-    "title": "Sales Performance Dashboard",
+    "objectID": "projects/list/project1.html#key-findings",
+    "href": "projects/list/project1.html#key-findings",
+    "title": "LLM Sentiment Analysis Comparison",
     "section": "Key Findings",
-    "text": "Key Findings\n\nDifferent KPI’s and performance metrics could be identified through the creation of a PowerBI dashboard"
+    "text": "Key Findings\n\nBERT outperformed Gemma 4 across all metrics when fine-tuned on domain-specific data, achieving 80% accuracy vs 74.8% for Gemma zero-shot\nBERT was ~9x faster for inference — 11.1ms per sample vs 101ms for Gemma 4\nGemma 4 zero-shot performed reasonably well without any training, showing strong general language understanding\nFew-shot prompting did not improve over zero-shot for this task, dropping to 68.3% accuracy\nError patterns showed BERT handled nuanced neutral sentiment better, while Gemma was stronger on clearly positive/negative text"
   },
   {
-    "objectID": "projects/list/project4.html",
-    "href": "projects/list/project4.html",
-    "title": "Swapfiets Marketing Strategy",
+    "objectID": "projects/list/project3.html",
+    "href": "projects/list/project3.html",
+    "title": "Covid-19 & Online Shopping Behavior in Germany",
     "section": "",
-    "text": "This group project was conducted in partnership with Swapfiets, the world’s largest bicycle subscription service. Our team developed a marketing strategy to increase Swapfiets’ customer base in Karlsruhe, Germany, with a focus on the winter months. We applied the Sinus-Milieus model for market segmentation, conducted primary survey research, and proposed guerrilla marketing campaigns targeting the Escapist milieu.\n\n\n\n\n\n\nNote\n\n\n\nDownload the full report: Swapfiets Report (PDF)"
+    "text": "This bachelor thesis explores how the Covid-19 pandemic affected online shopping behavior in Germany. Using a mixed-methods approach combining a survey of 191 participants with 6 in-depth interviews, the study analyses shifts in shopping frequency, spending patterns, product category preferences, and consumer attitudes."
   },
   {
-    "objectID": "projects/list/project4.html#overview",
-    "href": "projects/list/project4.html#overview",
-    "title": "Swapfiets Marketing Strategy",
+    "objectID": "projects/list/project3.html#overview",
+    "href": "projects/list/project3.html#overview",
+    "title": "Covid-19 & Online Shopping Behavior in Germany",
     "section": "",
-    "text": "This group project was conducted in partnership with Swapfiets, the world’s largest bicycle subscription service. Our team developed a marketing strategy to increase Swapfiets’ customer base in Karlsruhe, Germany, with a focus on the winter months. We applied the Sinus-Milieus model for market segmentation, conducted primary survey research, and proposed guerrilla marketing campaigns targeting the Escapist milieu.\n\n\n\n\n\n\nNote\n\n\n\nDownload the full report: Swapfiets Report (PDF)"
+    "text": "This bachelor thesis explores how the Covid-19 pandemic affected online shopping behavior in Germany. Using a mixed-methods approach combining a survey of 191 participants with 6 in-depth interviews, the study analyses shifts in shopping frequency, spending patterns, product category preferences, and consumer attitudes."
   },
   {
-    "objectID": "projects/list/project4.html#market-segmentation-sinus-milieus",
-    "href": "projects/list/project4.html#market-segmentation-sinus-milieus",
-    "title": "Swapfiets Marketing Strategy",
-    "section": "Market Segmentation: Sinus-Milieus",
-    "text": "Market Segmentation: Sinus-Milieus\n\nimport matplotlib.pyplot as plt\n\nmilieus = ['High Achiever', 'Socio-ecological', 'Escapist', \n           'Movers & Shakers', 'New Middle Class']\nshare = [27, 16, 15, 10, 8]\ncolors = ['#5bcefa', '#7c73ff', '#2ecc71', '#e74c3c', '#f39c12']\n\nfig, ax = plt.subplots(figsize=(8, 6))\nwedges, texts, autotexts = ax.pie(share, labels=milieus, colors=colors,\n                                   autopct='%1.0f%%', startangle=90,\n                                   textprops={'color': 'white', 'fontsize': 11})\nax.set_title('Sinus-Milieus Distribution in Karlsruhe', fontsize=14, color='white')\nplt.tight_layout()\nplt.show()"
+    "objectID": "projects/list/project3.html#full-thesis",
+    "href": "projects/list/project3.html#full-thesis",
+    "title": "Covid-19 & Online Shopping Behavior in Germany",
+    "section": "Full Thesis",
+    "text": "Full Thesis\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf the PDF does not display, you can view it here."
   },
   {
-    "objectID": "projects/list/project4.html#survey-interest-by-milieu",
-    "href": "projects/list/project4.html#survey-interest-by-milieu",
-    "title": "Swapfiets Marketing Strategy",
-    "section": "Survey: Interest by Milieu",
-    "text": "Survey: Interest by Milieu\n\nimport matplotlib.pyplot as plt\n\nmilieus = ['Movers &\\nShakers', 'High\\nAchiever', 'Escapist', 'New Middle\\nClass']\ninterest = [69.23, 64.29, 62.75, 55.00]\ncolors = ['#2ecc71', '#5bcefa', '#7c73ff', '#f39c12']\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.bar(milieus, interest, color=colors)\nax.set_ylabel('Interest (%)')\nax.set_title('Interest in Swapfiets Subscription by Milieu')\nax.set_ylim(0, 100)\nfor bar, val in zip(bars, interest):\n    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 2,\n            f'{val}%', ha='center', color='white')\nplt.tight_layout()\nplt.show()"
+    "objectID": "projects/list/project3.html#survey-analysis",
+    "href": "projects/list/project3.html#survey-analysis",
+    "title": "Covid-19 & Online Shopping Behavior in Germany",
+    "section": "Survey Analysis",
+    "text": "Survey Analysis\n\nOnline Shopping Frequency Before the Pandemic\n\nimport matplotlib.pyplot as plt\n\nlabels = ['Rarely', 'Never', 'Monthly', 'Weekly', 'Daily']\nvalues = [44.8, 25.5, 23.4, 5.5, 0.7]\ncolors = ['#5bcefa', '#7c73ff', '#e74c3c', '#2ecc71', '#f39c12']\n\nfig, ax = plt.subplots(figsize=(7, 7))\nwedges, texts, autotexts = ax.pie(values, labels=labels, colors=colors,\n                                   autopct='%1.1f%%', startangle=90,\n                                   textprops={'color': 'white', 'fontsize': 12})\nax.set_title('Online Shopping Frequency Before Covid-19', fontsize=14, color='white')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\nChange in Shopping Frequency After the Pandemic\n\nimport matplotlib.pyplot as plt\n\ncategories = ['Increased\\nsignificantly', 'Increased\\nslightly', 'Remained\\nthe same', \n              'Decreased\\nslightly', 'Decreased\\nsignificantly']\npercentages = [24.8, 56.6, 13.8, 3.4, 1.4]\ncolors = ['#2ecc71', '#5bcefa', '#7c73ff', '#f39c12', '#e74c3c']\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.bar(categories, percentages, color=colors)\nax.set_ylabel('Percentage of Respondents (%)')\nax.set_title('Change in Online Shopping Frequency After Covid-19')\nfor bar, val in zip(bars, percentages):\n    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1, \n            f'{val}%', ha='center', color='white')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\nProduct Categories: Before vs During the Pandemic\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\ncategories = ['Electronics', 'Groceries', 'Clothing', 'Pharmaceuticals', \n              'Home &\\nGarden', 'Entertainment', 'Food']\nbefore = [48, 15, 52, 24, 13, 37, 45]\nduring = [68, 45, 95, 55, 45, 71, 75]\n\nx = np.arange(len(categories))\nwidth = 0.35\n\nfig, ax = plt.subplots(figsize=(12, 6))\nax.bar(x - width/2, before, width, label='Before Pandemic', color='#7c73ff')\nax.bar(x + width/2, during, width, label='During Pandemic', color='#5bcefa')\nax.set_ylabel('Number of Respondents')\nax.set_title('Product Categories Shopped Online: Before vs During Covid-19')\nax.set_xticks(x)\nax.set_xticklabels(categories)\nax.legend()\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\nReasons for Increased Online Shopping\n\nimport matplotlib.pyplot as plt\n\nreasons = ['Limited access to\\nphysical stores', 'Safety concerns', \n           'Convenience', 'Price advantages', 'More free time', 'Other']\ncounts = [73, 64, 53, 52, 23, 8]\ncolors = ['#5bcefa', '#7c73ff', '#2ecc71', '#e74c3c', '#f39c12', '#95a5a6']\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.barh(reasons, counts, color=colors)\nax.set_xlabel('Number of Respondents')\nax.set_title('Reasons for Increased Online Shopping During Covid-19')\nax.invert_yaxis()\nfor bar, val in zip(bars, counts):\n    ax.text(bar.get_width() + 1, bar.get_y() + bar.get_height()/2, \n            str(val), va='center', color='white')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\nStore Preference: Local vs International\n\nimport matplotlib.pyplot as plt\n\nlabels = ['No Preference', 'International', 'Local']\nvalues = [47.6, 38.6, 13.8]\ncolors = ['#7c73ff', '#5bcefa', '#2ecc71']\n\nfig, ax = plt.subplots(figsize=(7, 7))\nwedges, texts, autotexts = ax.pie(values, labels=labels, colors=colors,\n                                   autopct='%1.1f%%', startangle=90,\n                                   textprops={'color': 'white', 'fontsize': 12})\nax.set_title('Preference: Local vs International Online Stores', fontsize=14, color='white')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\nFuture Shopping Intentions\n\nimport matplotlib.pyplot as plt\n\nintentions = ['Yes, more\\nthan now', 'Yes, the same\\nas now', 'Yes, less\\nthan now', 'No, will shop\\nin-person']\ncounts = [18, 86, 32, 9]\ncolors = ['#2ecc71', '#5bcefa', '#f39c12', '#e74c3c']\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.bar(intentions, counts, color=colors)\nax.set_ylabel('Number of Respondents')\nax.set_title('Intention to Continue Online Shopping Post-Pandemic')\nfor bar, val in zip(bars, counts):\n    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1, \n            str(val), ha='center', color='white')\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "projects/list/project4.html#potential-market-population",
-    "href": "projects/list/project4.html#potential-market-population",
-    "title": "Swapfiets Marketing Strategy",
-    "section": "Potential Market Population",
-    "text": "Potential Market Population\n\nimport matplotlib.pyplot as plt\n\ngroups = ['High Achiever', 'Escapist', 'Movers & Shakers', \n          'New Middle Class', '18-24 Year Olds', 'Chinese Students']\npotential = [53728, 29314, 21429, 13619, 23137, 1780]\ncolors = ['#5bcefa', '#7c73ff', '#2ecc71', '#f39c12', '#e74c3c', '#95a5a6']\n\nfig, ax = plt.subplots(figsize=(10, 5))\nbars = ax.barh(groups, potential, color=colors)\nax.set_xlabel('Potential Market Population')\nax.set_title('Estimated Market Potential by Target Group in Karlsruhe')\nax.invert_yaxis()\nfor bar, val in zip(bars, potential):\n    ax.text(bar.get_width() + 500, bar.get_y() + bar.get_height()/2,\n            f'{val:,}', va='center', color='white')\nplt.tight_layout()\nplt.show()"
-  },
-  {
-    "objectID": "projects/list/project4.html#winter-cycling-preferences",
-    "href": "projects/list/project4.html#winter-cycling-preferences",
-    "title": "Swapfiets Marketing Strategy",
-    "section": "Winter Cycling Preferences",
-    "text": "Winter Cycling Preferences\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\ngadgets = ['Winter Tires', 'Earmuffs', 'Reflective Vest', 'Face Mask', \n           'Gloves', 'Rain Jacket', 'Water Bottle', 'Other']\nescapist = [14, 17, 15, 4, 1, 8, 7, 2]\nnew_middle = [5, 3, 5, 8, 12, 5, 3, 3]\nhigh_achiever = [13, 8, 8, 8, 6, 7, 8, 0]\nmovers = [1, 3, 5, 11, 5, 2, 1, 1]\n\nx = np.arange(len(gadgets))\nwidth = 0.2\n\nfig, ax = plt.subplots(figsize=(12, 6))\nax.bar(x - 1.5*width, escapist, width, label='Escapist', color='#5bcefa')\nax.bar(x - 0.5*width, new_middle, width, label='New Middle Class', color='#7c73ff')\nax.bar(x + 0.5*width, high_achiever, width, label='High Achiever', color='#2ecc71')\nax.bar(x + 1.5*width, movers, width, label='Movers & Shakers', color='#e74c3c')\nax.set_ylabel('Number of Respondents')\nax.set_title('Winter Cycling Gadget Preferences by Milieu')\nax.set_xticks(x)\nax.set_xticklabels(gadgets, rotation=30, ha='right')\nax.legend()\nplt.tight_layout()\nplt.show()"
-  },
-  {
-    "objectID": "projects/list/project4.html#key-findings",
-    "href": "projects/list/project4.html#key-findings",
-    "title": "Swapfiets Marketing Strategy",
+    "objectID": "projects/list/project3.html#key-findings",
+    "href": "projects/list/project3.html#key-findings",
+    "title": "Covid-19 & Online Shopping Behavior in Germany",
     "section": "Key Findings",
-    "text": "Key Findings\n\nEscapist milieu was selected as the primary target group due to the greatest market potential (~29,300 people) and strongest alignment with Swapfiets’ service\nChinese students at KIT represented a high-potential niche with 90.91% interest rate, driven by an existing bike-sharing culture\nWinter tires were the most requested addition across all milieus, with 33 total responses\nMarketing strategy proposed poster campaigns and guerrilla marketing including mural art and a cycling parade"
+    "text": "Key Findings\n\n81.4% of respondents reported increased online shopping activity during the pandemic\nHome & Garden saw the largest growth at 246% increase in online purchases\nLimited store access was the top reason for increased online shopping, followed by safety concerns\nInternational stores were preferred over local ones by nearly 3 to 1 among those with a preference\n59% intended to maintain their pandemic-level online shopping activity going forward"
   },
   {
-    "objectID": "projects/list/project4.html#reflection",
-    "href": "projects/list/project4.html#reflection",
-    "title": "Swapfiets Marketing Strategy",
+    "objectID": "projects/list/project3.html#reflection",
+    "href": "projects/list/project3.html#reflection",
+    "title": "Covid-19 & Online Shopping Behavior in Germany",
     "section": "Reflection",
-    "text": "Reflection\nThis was my first experience working with a company on a live business problem, through the university course. Leading a team of five through research, survey design, and strategy taught me how to combine different perspectives into one clear deliverable. Conducting street surveys in Karlsruhe gave me hands-on experience with primary data collection and its challenges. Our findings eventually led to the execution of a similar strategy by the company."
+    "text": "Reflection\nThis bachelor thesis was my first experience conducting such in-depth independent academic research from start to finish. Designing the mixed-methods approach, combining a survey of 191 participants with in-depth interviews, taught me how quantitative and qualitative data complement each other. The survey gave me the broad patterns, but it was the interviews that revealed the emotions and reasoning behind the numbers.\nOne of the biggest challenges was collecting data on the streets of Frankfurt, Heidelberg, and Bensheim. Approaching strangers, dealing with refusals, and managing different survey conditions.\nLooking back, I would improve the sample diversity and increase the interview pool. The results skewed heavily towards younger demographics, which limited the conclusions I could draw about older populations. This experience gave me a deeper understanding for research design and the importance of addressing bias early.\nThis project ultimately sparked my interest in data analytics and consumer behavior, two fields I am now pursuing in my MSc at DCU. The skills I developed here, from data collection to statistical analysis, and academic writing, continue to contribute to my work today."
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "This module introduced me to tools and workflows I hadn’t used before, Quarto, Git, GitHub Pages, and building a website from scratch using code rather than a pre-built template. At first, configuring _quarto.yml and understanding how all the pieces fit together felt overwhelming, but utilizing online guides and supports, made me realize that Quarto was an easy and efficient way of creating a website."
+  },
+  {
+    "objectID": "reflection.html#my-journey",
+    "href": "reflection.html#my-journey",
+    "title": "Reflection",
+    "section": "",
+    "text": "This module introduced me to tools and workflows I hadn’t used before, Quarto, Git, GitHub Pages, and building a website from scratch using code rather than a pre-built template. At first, configuring _quarto.yml and understanding how all the pieces fit together felt overwhelming, but utilizing online guides and supports, made me realize that Quarto was an easy and efficient way of creating a website."
+  },
+  {
+    "objectID": "reflection.html#technical-skills",
+    "href": "reflection.html#technical-skills",
+    "title": "Reflection",
+    "section": "Technical Skills",
+    "text": "Technical Skills\nLearning Git was one of the most valuable takeaways. Updating and keeping track of my projects through the remote repository are skills I will use beyond this module. Working with Quarto also gave me a deeper appreciation for reproducible documents, combining markdown, Python code, and web publishing into one workflow."
+  },
+  {
+    "objectID": "reflection.html#design-choices",
+    "href": "reflection.html#design-choices",
+    "title": "Reflection",
+    "section": "Design Choices",
+    "text": "Design Choices\nI wanted my portfolio to feel modern yet be a reflection of me as a person. I chose a dark theme with a calming background image and translucent content boxes. Customising the SCSS variables and writing my own CSS rules taught me how web styling works at a practical level. Small details like hover effects, rounded borders, and a blurred navigation bar made a noticeable difference in the overall feel."
+  },
+  {
+    "objectID": "reflection.html#challenges",
+    "href": "reflection.html#challenges",
+    "title": "Reflection",
+    "section": "Challenges",
+    "text": "Challenges\nThe biggest challenge was getting things to work consistently across pages, image paths, background images, and CSS selectors all behaved differently depending on folder depth."
+  },
+  {
+    "objectID": "reflection.html#connecting-to-future-goals",
+    "href": "reflection.html#connecting-to-future-goals",
+    "title": "Reflection",
+    "section": "Connecting to Future Goals",
+    "text": "Connecting to Future Goals\nBuilding this portfolio ties directly into my career goals in analytics and technology. Having a professional online presence where I showcase some of my projects, executable code, with a clear narrative is something I can continue to develop and share with potential employers. The technical skills this module required mirrors what I want to do professionally, turning complex work into something easy to understand"
   }
 ]

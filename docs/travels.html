@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Woo-Sung Hollenhorst</title>
+<title>Travels – Woo-Sung Hollenhorst</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/favicon.svg" rel="icon" type="image/svg+xml">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-00feface57a40fb7a06c8694f9a70c45.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-00feface57a40fb7a06c8694f9a70c45.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,81 +71,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.scss">
+<link rel="stylesheet" href="styles.scss">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logo.svg" alt="" class="navbar-logo light-content">
-    <img src="../images/logo.svg" alt="" class="navbar-logo dark-content">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo.svg" alt="" class="navbar-logo light-content">
+    <img src="./images/logo.svg" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Woo-Sung Hollenhorst</span>
     </a>
   </div>
@@ -158,33 +100,33 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
+    <a class="nav-link" href="./projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../reflection.html"> 
+    <a class="nav-link" href="./reflection.html"> 
 <span class="menu-text">Reflection</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contact.html"> 
+    <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../cv/cv.pdf" target="_blank"> 
+    <a class="nav-link" href="./cv/cv.pdf" target="_blank"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../travels.html"> <i class="bi bi-globe" role="img">
+    <a class="nav-link active" href="./travels.html" aria-current="page"> <i class="bi bi-globe" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -204,15 +146,13 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QnVzaW5lc3MlMjBJbnRlbGxpZ2VuY2U=">Business Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29uc3VtZXIlMjBCZWhhdmlvcg==">Consumer Behavior <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGlzYXRpb24=">Data Visualisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVlcCUyMExlYXJuaW5n">Deep Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RS1Db21tZXJjZQ==">E-Commerce <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFya2V0JTIwUmVzZWFyY2g=">Market Research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFya2V0aW5n">Marketing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TkxQ">NLP <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UG93ZXIlMjBCSQ==">Power BI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2g=">Research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RyYXRlZ3k=">Strategy <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Travels</h1>
 </div>
 
 
@@ -231,153 +171,261 @@ window.Quarto = {
 
 <style>
 body {
-  background-image: url('../images/background.jpg');
+  background-image: url('images/background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 </style>
+<section id="where-ive-been" class="level2">
+<h2 class="anchored" data-anchor-id="where-ive-been">Where I’ve Been</h2>
+<p>Click on a highlighted country to learn more. Drag to pan and scroll to zoom.</p>
+<div id="map-container" style="width:100%;max-width:1000px;margin:0 auto;position:relative;">
+  <div id="tooltip" style="position:absolute;background:rgba(15,15,26,0.95);backdrop-filter:blur(10px);border:1px solid #5bcefa;border-radius:10px;padding:12px 16px;color:#e0e0e0;font-size:14px;pointer-events:none;opacity:0;transition:opacity 0.2s ease;z-index:100;max-width:220px;">
+    <div class="country-name" style="color:#5bcefa;font-weight:600;font-size:16px;margin-bottom:4px;"></div>
+    <div class="country-region" style="color:#b0b0b0;font-size:12px;"></div>
+  </div>
+  <div id="popup" style="display:none;position:absolute;background:rgba(15,15,26,0.95);backdrop-filter:blur(10px);border:1px solid #5bcefa;border-radius:14px;padding:20px;color:#e0e0e0;font-size:14px;z-index:200;max-width:320px;box-shadow:0 8px 32px rgba(0,0,0,0.5);">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <div id="popup-name" style="color:#5bcefa;font-weight:700;font-size:20px;"></div>
+      <div id="popup-close" style="color:#b0b0b0;cursor:pointer;font-size:20px;padding:0 4px;">×</div>
+    </div>
+    <div id="popup-region" style="color:#7c73ff;font-size:12px;margin-bottom:10px;text-transform:uppercase;letter-spacing:1px;"></div>
+    <div id="popup-desc" style="line-height:1.6;color:#c0c0c0;"></div>
+  </div>
+  <svg id="world-map" style="width:100%;height:auto;cursor:grab;"></svg>
+  <div style="position:absolute;bottom:10px;right:10px;display:flex;gap:6px;">
+    <button id="zoom-in" style="background:rgba(15,15,26,0.8);border:1px solid #5bcefa;color:#5bcefa;width:32px;height:32px;border-radius:8px;cursor:pointer;font-size:18px;">+</button>
+    <button id="zoom-out" style="background:rgba(15,15,26,0.8);border:1px solid #5bcefa;color:#5bcefa;width:32px;height:32px;border-radius:8px;cursor:pointer;font-size:18px;">−</button>
+    <button id="zoom-reset" style="background:rgba(15,15,26,0.8);border:1px solid #5bcefa;color:#5bcefa;height:32px;border-radius:8px;cursor:pointer;font-size:12px;padding:0 10px;">Reset</button>
+  </div>
+</div>
+<div style="display:flex;justify-content:center;gap:2rem;margin-top:1.5rem;flex-wrap:wrap;">
+  <div style="background:rgba(15,15,26,0.687);backdrop-filter:blur(10px);border-radius:12px;padding:1rem 1.5rem;text-align:center;border:1px solid #2a2a4a;">
+    <div style="color:#5bcefa;font-size:2rem;font-weight:700;">32</div>
+    <div style="color:#b0b0b0;font-size:0.85rem;margin-top:4px;">Countries Visited</div>
+  </div>
+  <div style="background:rgba(15,15,26,0.687);backdrop-filter:blur(10px);border-radius:12px;padding:1rem 1.5rem;text-align:center;border:1px solid #2a2a4a;">
+    <div style="color:#5bcefa;font-size:2rem;font-weight:700;">5</div>
+    <div style="color:#b0b0b0;font-size:0.85rem;margin-top:4px;">Continents</div>
+  </div>
+  <div style="background:rgba(15,15,26,0.687);backdrop-filter:blur(10px);border-radius:12px;padding:1rem 1.5rem;text-align:center;border:1px solid #2a2a4a;">
+    <div style="color:#5bcefa;font-size:2rem;font-weight:700;">16%</div>
+    <div style="color:#b0b0b0;font-size:0.85rem;margin-top:4px;">of the World</div>
+  </div>
+</div>
+<div style="display:flex;justify-content:center;gap:1.5rem;margin-top:1rem;font-size:0.85rem;color:#b0b0b0;">
+  <div style="display:flex;align-items:center;gap:6px;">
+    <div style="width:12px;height:12px;border-radius:3px;background:#5bcefa;"></div>
+    <span>Visited</span>
+  </div>
+  <div style="display:flex;align-items:center;gap:6px;">
+    <div style="width:12px;height:12px;border-radius:3px;background:#1a1a2e;border:1px solid #2a2a4a;"></div>
+    <span>Not yet visited</span>
+  </div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const countryInfo = {
+    'Egypt': { region: 'Africa', desc: 'Explored the pyramids and cruised the Nile.' },
+    'China': { region: 'Asia', desc: 'Experienced the Great Wall and vibrant city life in Beijing and Shanghai.' },
+    'Hong Kong': { region: 'Asia', desc: 'A unique blend of East and West with incredible skyline views.' },
+    'South Korea': { region: 'Asia', desc: 'My second home — grew up here and keep coming back.' },
+    'Taiwan': { region: 'Asia', desc: 'Night markets, temples, and some of the best food in Asia.' },
+    'Turkey': { region: 'Europe / Asia', desc: 'Istanbul\'s rich history and the stunning landscapes of Cappadocia.' },
+    'Indonesia': { region: 'Asia', desc: 'Bali\'s beaches and the cultural richness of Java.' },
+    'Japan': { region: 'Asia', desc: 'From Tokyo\'s energy to Kyoto\'s tranquility — an unforgettable experience.' },
+    'Malaysia': { region: 'Asia', desc: 'Kuala Lumpur\'s diversity and Langkawi\'s natural beauty.' },
+    'Philippines': { region: 'Asia', desc: 'Crystal clear waters and the warmest hospitality.' },
+    'Singapore': { region: 'Asia', desc: 'A tiny city-state with world-class food and architecture.' },
+    'Oman': { region: 'Middle East', desc: 'Desert landscapes and a rich cultural heritage.' },
+    'Qatar': { region: 'Middle East', desc: 'Modern architecture meets traditional Arabian culture.' },
+    'Thailand': { region: 'Asia', desc: 'Temples, street food, and tropical islands.' },
+    'United Arab Emirates': { region: 'Middle East', desc: 'Dubai\'s futuristic skyline and Abu Dhabi\'s cultural landmarks.' },
+    'Austria': { region: 'Europe', desc: 'Alpine scenery and Vienna\'s classical charm.' },
+    'Croatia': { region: 'Europe', desc: 'Dubrovnik\'s old town and the stunning Adriatic coast.' },
+    'Czech Republic': { region: 'Europe', desc: 'Prague\'s fairytale architecture and vibrant nightlife.' },
+    'France': { region: 'Europe', desc: 'Paris, the Riviera, and everything in between.' },
+    'Germany': { region: 'Europe', desc: 'Home — grew up here across multiple cities.' },
+    'Greece': { region: 'Europe', desc: 'Island hopping and ancient history under the Mediterranean sun.' },
+    'Ireland': { region: 'Europe', desc: 'Currently based in Dublin for my MSc at DCU.' },
+    'Italy': { region: 'Europe', desc: 'Rome\'s history, Florence\'s art, and the best pizza in the world.' },
+    'Malta': { region: 'Europe', desc: 'A small island with a big personality and fascinating history.' },
+    'Netherlands': { region: 'Europe', desc: 'Canals, cycling culture, and a laid-back atmosphere.' },
+    'Poland': { region: 'Europe', desc: 'Worked here — experienced the warmth and resilience of Polish culture.' },
+    'Portugal': { region: 'Europe', desc: 'Lisbon\'s charm and Porto\'s port wine scene.' },
+    'Spain': { region: 'Europe', desc: 'Barcelona\'s architecture and the energy of Madrid.' },
+    'Switzerland': { region: 'Europe', desc: 'Mountain views, precision, and incredible chocolate.' },
+    'United Kingdom': { region: 'Europe', desc: 'London\'s buzz and the charm of the British countryside.' },
+    'United States of America': { region: 'North America', desc: 'Explored the coasts — from New York to California.' }
+  };
+
+  const visitedCountries = {};
+  Object.keys(countryInfo).forEach(function(k) { visitedCountries[k] = countryInfo[k].region; });
+  visitedCountries['Czechia'] = 'Europe';
+
+  const nameMapping = {'Czechia':'Czech Republic','United States of America':'United States'};
+  const width=1000, height=500;
+
+  const svg = d3.select('#world-map')
+    .attr('viewBox', '0 0 ' + width + ' ' + height)
+    .attr('preserveAspectRatio', 'xMidYMid meet');
+
+  const g = svg.append('g');
+
+  const projection = d3.geoNaturalEarth1().scale(160).translate([width/2, height/2]);
+  const path = d3.geoPath().projection(projection);
+
+  const tooltip = document.getElementById('tooltip');
+  const tooltipName = tooltip.querySelector('.country-name');
+  const tooltipRegion = tooltip.querySelector('.country-region');
+  const popup = document.getElementById('popup');
+  const popupName = document.getElementById('popup-name');
+  const popupRegion = document.getElementById('popup-region');
+  const popupDesc = document.getElementById('popup-desc');
+  const popupClose = document.getElementById('popup-close');
+
+  var zoom = d3.zoom()
+    .scaleExtent([1, 8])
+    .on('zoom', function(event) {
+      g.attr('transform', event.transform);
+      svg.style('cursor', 'grabbing');
+    })
+    .on('end', function() {
+      svg.style('cursor', 'grab');
+    });
+
+  svg.call(zoom);
+
+  document.getElementById('zoom-in').addEventListener('click', function() {
+    svg.transition().duration(300).call(zoom.scaleBy, 1.5);
+  });
+  document.getElementById('zoom-out').addEventListener('click', function() {
+    svg.transition().duration(300).call(zoom.scaleBy, 0.67);
+  });
+  document.getElementById('zoom-reset').addEventListener('click', function() {
+    svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+  });
+
+  popupClose.addEventListener('click', function() {
+    popup.style.display = 'none';
+  });
+
+  d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then(function(world) {
+    var countries = topojson.feature(world, world.objects.countries);
+
+    var idToName = {
+      '004':'Afghanistan','008':'Albania','012':'Algeria','024':'Angola',
+      '032':'Argentina','036':'Australia','040':'Austria','050':'Bangladesh',
+      '056':'Belgium','064':'Bhutan','068':'Bolivia','070':'Bosnia and Herzegovina',
+      '076':'Brazil','100':'Bulgaria','104':'Myanmar','116':'Cambodia',
+      '120':'Cameroon','124':'Canada','144':'Sri Lanka','152':'Chile',
+      '156':'China','170':'Colombia','180':'Democratic Republic of the Congo',
+      '188':'Costa Rica','191':'Croatia','192':'Cuba','196':'Cyprus',
+      '203':'Czech Republic','208':'Denmark','214':'Dominican Republic',
+      '218':'Ecuador','818':'Egypt','222':'El Salvador','231':'Ethiopia',
+      '233':'Estonia','246':'Finland','250':'France','276':'Germany',
+      '288':'Ghana','300':'Greece','320':'Guatemala','332':'Haiti',
+      '340':'Honduras','348':'Hungary','352':'Iceland','356':'India',
+      '360':'Indonesia','364':'Iran','368':'Iraq','372':'Ireland',
+      '376':'Israel','380':'Italy','388':'Jamaica','392':'Japan',
+      '400':'Jordan','398':'Kazakhstan','404':'Kenya','410':'South Korea',
+      '414':'Kuwait','418':'Laos','422':'Lebanon','434':'Libya',
+      '440':'Lithuania','442':'Luxembourg','458':'Malaysia','466':'Mali',
+      '470':'Malta','484':'Mexico','496':'Mongolia','504':'Morocco',
+      '508':'Mozambique','516':'Namibia','524':'Nepal','528':'Netherlands',
+      '540':'New Caledonia','554':'New Zealand','558':'Nicaragua','566':'Nigeria',
+      '578':'Norway','512':'Oman','586':'Pakistan','591':'Panama',
+      '598':'Papua New Guinea','600':'Paraguay','604':'Peru','608':'Philippines',
+      '616':'Poland','620':'Portugal','630':'Puerto Rico','634':'Qatar',
+      '642':'Romania','643':'Russia','682':'Saudi Arabia','686':'Senegal',
+      '688':'Serbia','702':'Singapore','703':'Slovakia','704':'Vietnam',
+      '705':'Slovenia','706':'Somalia','710':'South Africa','724':'Spain',
+      '736':'Sudan','740':'Suriname','752':'Sweden','756':'Switzerland',
+      '760':'Syria','158':'Taiwan','764':'Thailand','780':'Trinidad and Tobago',
+      '788':'Tunisia','792':'Turkey','800':'Uganda','804':'Ukraine',
+      '784':'United Arab Emirates','826':'United Kingdom',
+      '834':'Tanzania','840':'United States of America',
+      '854':'Burkina Faso','858':'Uruguay','860':'Uzbekistan',
+      '862':'Venezuela','887':'Yemen','894':'Zambia','716':'Zimbabwe'
+    };
+
+    g.selectAll('path')
+      .data(countries.features)
+      .enter()
+      .append('path')
+      .attr('d', path)
+      .style('fill', function(d) {
+        var name = idToName[d.id] || '';
+        var displayName = nameMapping[name] || name;
+        return (visitedCountries[name] || visitedCountries[displayName]) ? '#5bcefa' : '#1a1a2e';
+      })
+      .style('stroke', '#2a2a4a')
+      .style('stroke-width', '0.5')
+      .style('cursor', function(d) {
+        var name = idToName[d.id] || '';
+        var displayName = nameMapping[name] || name;
+        return (visitedCountries[name] || visitedCountries[displayName]) ? 'pointer' : 'default';
+      })
+      .style('transition', 'fill 0.3s ease')
+      .on('mouseover', function(event, d) {
+        var name = idToName[d.id] || '';
+        var displayName = nameMapping[name] || name;
+        if (visitedCountries[name] || visitedCountries[displayName]) {
+          tooltipName.textContent = displayName || name;
+          tooltipRegion.textContent = visitedCountries[name] || visitedCountries[displayName];
+          tooltip.style.opacity = '1';
+          d3.select(this).style('fill', '#89dceb').style('filter', 'drop-shadow(0 0 8px rgba(91,206,250,0.5))');
+        }
+      })
+      .on('mousemove', function(event) {
+        var container = document.getElementById('map-container');
+        var rect = container.getBoundingClientRect();
+        tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
+        tooltip.style.top = (event.clientY - rect.top - 10) + 'px';
+      })
+      .on('mouseout', function(event, d) {
+        tooltip.style.opacity = '0';
+        var name = idToName[d.id] || '';
+        var displayName = nameMapping[name] || name;
+        if (visitedCountries[name] || visitedCountries[displayName]) {
+          d3.select(this).style('fill', '#5bcefa').style('filter', 'none');
+        }
+      })
+      .on('click', function(event, d) {
+        var name = idToName[d.id] || '';
+        var displayName = nameMapping[name] || name;
+        var lookupName = displayName || name;
+        if (countryInfo[lookupName]) {
+          popupName.textContent = lookupName;
+          popupRegion.textContent = countryInfo[lookupName].region;
+          popupDesc.textContent = countryInfo[lookupName].desc;
+          var container = document.getElementById('map-container');
+          var rect = container.getBoundingClientRect();
+          var x = event.clientX - rect.left;
+          var y = event.clientY - rect.top;
+          if (x + 340 > rect.width) x = rect.width - 340;
+          if (x < 0) x = 10;
+          popup.style.left = x + 'px';
+          popup.style.top = y + 'px';
+          popup.style.display = 'block';
+          tooltip.style.opacity = '0';
+        }
+      });
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!popup.contains(e.target) && !e.target.closest('path')) {
+      popup.style.display = 'none';
+    }
+  });
+});
+</script>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UmVzZWFyY2glMkNDb25zdW1lciUyMEJlaGF2aW9yJTJDRS1Db21tZXJjZQ==" data-listing-date-sort="1716850800000" data-listing-file-modified-sort="1776705507351" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="889">
-<a href="../projects/list/project3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/project3.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Covid-19 &amp; Online Shopping Behavior in Germany
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">Research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29uc3VtZXIlMjBCZWhhdmlvcg=='); return false;">Consumer Behavior</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RS1Db21tZXJjZQ=='); return false;">E-Commerce</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Bachelor thesis investigating the pandemic’s impact on German consumer behavior in e-commerce.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Woo-Sung Hollenhorst
-</div>
-<div class="listing-date">
-May 28, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TkxQJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDRGVlcCUyMExlYXJuaW5n" data-listing-date-sort="1776553200000" data-listing-file-modified-sort="1776705515894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="313">
-<a href="../projects/list/project1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/project1.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-LLM Sentiment Analysis Comparison
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TkxQ'); return false;">NLP</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGVlcCUyMExlYXJuaW5n'); return false;">Deep Learning</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Comparing BERT fine-tuning against Gemma 4 for classifying financial news sentiment.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Woo-Sung Hollenhorst
-</div>
-<div class="listing-date">
-Apr 19, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RGF0YSUyMFZpc3VhbGlzYXRpb24lMkNCdXNpbmVzcyUyMEludGVsbGlnZW5jZSUyQ1Bvd2VyJTIwQkk=" data-listing-date-sort="1776553200000" data-listing-file-modified-sort="1776643769102" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
-<a href="../projects/list/project2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/project2.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sales Performance Dashboard
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpc3VhbGlzYXRpb24='); return false;">Data Visualisation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QnVzaW5lc3MlMjBJbnRlbGxpZ2VuY2U='); return false;">Business Intelligence</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UG93ZXIlMjBCSQ=='); return false;">Power BI</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Interactive Power BI dashboard analysing sales, profitability, and regional performance for BuildRight Ltd.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Woo-Sung Hollenhorst
-</div>
-<div class="listing-date">
-Apr 19, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="TWFya2V0aW5nJTJDTWFya2V0JTIwUmVzZWFyY2glMkNTdHJhdGVneQ==" data-listing-date-sort="1580169600000" data-listing-file-modified-sort="1776705649092" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="621">
-<a href="../projects/list/project4.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/project4.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Swapfiets Marketing Strategy
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFya2V0aW5n'); return false;">Marketing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFya2V0JTIwUmVzZWFyY2g='); return false;">Market Research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3RyYXRlZ3k='); return false;">Strategy</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Group project developing a marketing strategy for Swapfiets bicycle subscription service in Karlsruhe, Germany.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Woo-Sung Hollenhorst
-</div>
-<div class="listing-date">
-Jan 28, 2020
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

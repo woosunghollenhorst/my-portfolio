@@ -20,6 +20,19 @@ body {
   background-position: center;
   background-attachment: fixed;
   font-size: 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Push footer to bottom on short pages */
+#quarto-content {
+  flex: 1 0 auto;
+}
+
+footer.footer {
+  flex-shrink: 0;
+  border-top: none;
 }
 
 /* Dark overlay on the landing page content */
@@ -140,6 +153,8 @@ code {
 /* Footer */
 .nav-footer {
   background-color: #1a1a2e;
+  margin-top: 0;
+  border-top: none;
 }
 
 /* Landing page title */

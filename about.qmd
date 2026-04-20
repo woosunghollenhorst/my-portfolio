@@ -35,26 +35,3 @@ I am fluent in English, German, and Korean, I thrive in intercultural environmen
 ## Goals
 
 I'm looking to build a career at the intersection of business and technology, with a focus on analytics and data-driven decision making. I'm currently exploring opportunities within the EU.
-
-::: {.column-page}
-## My Journey
-
-```{mermaid}
-timeline
-    title My Journey
-    2018 : Started International Business
-         : Karlshochschule, Germany
-    2020 : Swapfiets Marketing Project
-         : Company Collaboration
-    2022 : Sales & BI Roles
-         : Germany & Poland
-    2024 : Bachelor Thesis
-         : Covid-19 & E-Commerce Research
-    2024 : Started MSc Business Analytics
-         : Dublin City University
-    2025 : LLM Sentiment Analysis
-         : BERT vs Gemma 4 Comparison
-    2026 : Portfolio Launch
-         : Built with Quarto & Python
-```
-:::

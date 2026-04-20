@@ -21,7 +21,7 @@ body {
 This group project was conducted in partnership with Swapfiets, the world's largest bicycle subscription service. Our team developed a marketing strategy to increase Swapfiets' customer base in Karlsruhe, Germany, with a focus on the winter months. We applied the Sinus-Milieus model for market segmentation, conducted primary survey research, and proposed guerrilla marketing campaigns targeting the Escapist milieu.
 
 ::: {.callout-note}
-Download the full report: [Swapfiets Report (PDF)](../../files/swapfiets-report.pdf)
+View the full report: [Swapfiets Report (PDF)](../../files/swapfiets-report.pdf){target="_blank"}
 :::
 
 ## Market Segmentation: Sinus-Milieus
