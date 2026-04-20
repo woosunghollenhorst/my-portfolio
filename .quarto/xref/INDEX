@@ -16,5 +16,17 @@
   },
   "reflection.qmd": {
     "reflection.html": "4ac06889"
+  },
+  "notebooks/sentiment-analysis.ipynb": {
+    "sentiment-analysis.html": "534cdfc9"
+  },
+  "projects/list/project2.qmd": {
+    "project2.html": "e3d9e75a"
+  },
+  "projects/list/project3.qmd": {
+    "project3.html": "d1f3ede1"
+  },
+  "projects/list/project4.qmd": {
+    "project4.html": "9ac4690a"
   }
 }

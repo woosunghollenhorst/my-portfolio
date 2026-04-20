@@ -1,0 +1,173 @@
+---
+title: "Covid-19 & Online Shopping Behavior in Germany"
+description: "Bachelor thesis investigating the pandemic's impact on German consumer behavior in e-commerce."
+author: "Woo-Sung Hollenhorst"
+date: "2024-05-28"
+image: ../../images/project3.jpg
+categories: [Research, Consumer Behavior, E-Commerce]
+---
+<style>
+body {
+  background-image: url('../../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+</style>
+
+## Overview
+
+This bachelor thesis explores how the Covid-19 pandemic affected online shopping behavior in Germany. Using a mixed-methods approach combining a survey of 191 participants with 6 in-depth interviews, the study analyses shifts in shopping frequency, spending patterns, product category preferences, and consumer attitudes.
+
+## Full Thesis
+
+<iframe src="../../files/thesis.pdf" width="100%" height="800px" style="border: none; border-radius: 12px;"></iframe>
+
+::: {.callout-note}
+If the PDF does not display, you can [download it here](../../files/thesis.pdf).
+:::
+
+## Survey Analysis
+
+### Online Shopping Frequency Before the Pandemic
+
+```{python}
+import matplotlib.pyplot as plt
+
+labels = ['Rarely', 'Never', 'Monthly', 'Weekly', 'Daily']
+values = [44.8, 25.5, 23.4, 5.5, 0.7]
+colors = ['#5bcefa', '#7c73ff', '#e74c3c', '#2ecc71', '#f39c12']
+
+fig, ax = plt.subplots(figsize=(7, 7))
+wedges, texts, autotexts = ax.pie(values, labels=labels, colors=colors,
+                                   autopct='%1.1f%%', startangle=90,
+                                   textprops={'color': 'white', 'fontsize': 12})
+ax.set_title('Online Shopping Frequency Before Covid-19', fontsize=14, color='white')
+plt.tight_layout()
+plt.show()
+```
+
+### Change in Shopping Frequency After the Pandemic
+
+```{python}
+import matplotlib.pyplot as plt
+
+categories = ['Increased\nsignificantly', 'Increased\nslightly', 'Remained\nthe same', 
+              'Decreased\nslightly', 'Decreased\nsignificantly']
+percentages = [24.8, 56.6, 13.8, 3.4, 1.4]
+colors = ['#2ecc71', '#5bcefa', '#7c73ff', '#f39c12', '#e74c3c']
+
+fig, ax = plt.subplots(figsize=(10, 5))
+bars = ax.bar(categories, percentages, color=colors)
+ax.set_ylabel('Percentage of Respondents (%)')
+ax.set_title('Change in Online Shopping Frequency After Covid-19')
+for bar, val in zip(bars, percentages):
+    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1, 
+            f'{val}%', ha='center', color='white')
+plt.tight_layout()
+plt.show()
+```
+
+### Product Categories: Before vs During the Pandemic
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+categories = ['Electronics', 'Groceries', 'Clothing', 'Pharmaceuticals', 
+              'Home &\nGarden', 'Entertainment', 'Food']
+before = [48, 15, 52, 24, 13, 37, 45]
+during = [68, 45, 95, 55, 45, 71, 75]
+
+x = np.arange(len(categories))
+width = 0.35
+
+fig, ax = plt.subplots(figsize=(12, 6))
+ax.bar(x - width/2, before, width, label='Before Pandemic', color='#7c73ff')
+ax.bar(x + width/2, during, width, label='During Pandemic', color='#5bcefa')
+ax.set_ylabel('Number of Respondents')
+ax.set_title('Product Categories Shopped Online: Before vs During Covid-19')
+ax.set_xticks(x)
+ax.set_xticklabels(categories)
+ax.legend()
+plt.tight_layout()
+plt.show()
+```
+
+### Reasons for Increased Online Shopping
+
+```{python}
+import matplotlib.pyplot as plt
+
+reasons = ['Limited access to\nphysical stores', 'Safety concerns', 
+           'Convenience', 'Price advantages', 'More free time', 'Other']
+counts = [73, 64, 53, 52, 23, 8]
+colors = ['#5bcefa', '#7c73ff', '#2ecc71', '#e74c3c', '#f39c12', '#95a5a6']
+
+fig, ax = plt.subplots(figsize=(10, 5))
+bars = ax.barh(reasons, counts, color=colors)
+ax.set_xlabel('Number of Respondents')
+ax.set_title('Reasons for Increased Online Shopping During Covid-19')
+ax.invert_yaxis()
+for bar, val in zip(bars, counts):
+    ax.text(bar.get_width() + 1, bar.get_y() + bar.get_height()/2, 
+            str(val), va='center', color='white')
+plt.tight_layout()
+plt.show()
+```
+
+### Store Preference: Local vs International
+
+```{python}
+import matplotlib.pyplot as plt
+
+labels = ['No Preference', 'International', 'Local']
+values = [47.6, 38.6, 13.8]
+colors = ['#7c73ff', '#5bcefa', '#2ecc71']
+
+fig, ax = plt.subplots(figsize=(7, 7))
+wedges, texts, autotexts = ax.pie(values, labels=labels, colors=colors,
+                                   autopct='%1.1f%%', startangle=90,
+                                   textprops={'color': 'white', 'fontsize': 12})
+ax.set_title('Preference: Local vs International Online Stores', fontsize=14, color='white')
+plt.tight_layout()
+plt.show()
+```
+
+### Future Shopping Intentions
+
+```{python}
+import matplotlib.pyplot as plt
+
+intentions = ['Yes, more\nthan now', 'Yes, the same\nas now', 'Yes, less\nthan now', 'No, will shop\nin-person']
+counts = [18, 86, 32, 9]
+colors = ['#2ecc71', '#5bcefa', '#f39c12', '#e74c3c']
+
+fig, ax = plt.subplots(figsize=(10, 5))
+bars = ax.bar(intentions, counts, color=colors)
+ax.set_ylabel('Number of Respondents')
+ax.set_title('Intention to Continue Online Shopping Post-Pandemic')
+for bar, val in zip(bars, counts):
+    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1, 
+            str(val), ha='center', color='white')
+plt.tight_layout()
+plt.show()
+```
+
+## Key Findings
+
+- **81.4% of respondents** reported increased online shopping activity during the pandemic
+- **Home & Garden** saw the largest growth at 246% increase in online purchases
+- **Limited store access** was the top reason for increased online shopping, followed by safety concerns
+- **International stores** were preferred over local ones by nearly 3 to 1 among those with a preference
+- **59% intended to maintain** their pandemic-level online shopping activity going forward
+
+## Reflection
+
+This bachelor thesis was my first experience conducting such in-depth independent academic research from start to finish. Designing the mixed-methods approach, combining a survey of 191 participants with in-depth interviews, taught me how quantitative and qualitative data complement each other. The survey gave me the broad patterns, but it was the interviews that revealed the emotions and reasoning behind the numbers.
+
+One of the biggest challenges was collecting data on the streets of Frankfurt, Heidelberg, and Bensheim. Approaching strangers, dealing with refusals, and managing different survey conditions.
+
+Looking back, I would improve the sample diversity and increase the interview pool. The results skewed heavily towards younger demographics, which limited the conclusions I could draw about older populations. This experience gave me a deeper understanding for research design and the importance of addressing bias early.
+
+This project ultimately sparked my interest in data analytics and consumer behavior, two fields I am now pursuing in my MSc at DCU. The skills I developed here, from data collection to statistical analysis, and academic writing, continue to contribute to my work today.

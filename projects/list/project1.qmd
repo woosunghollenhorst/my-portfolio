@@ -1,0 +1,113 @@
+---
+title: "LLM Sentiment Analysis Comparison"
+description: "Comparing BERT fine-tuning against Gemma 4 for classifying financial news sentiment."
+author: "Woo-Sung Hollenhorst"
+date: "2026-04-19"
+image: ../../images/project1.jpg
+categories: [NLP, Machine Learning, Deep Learning]
+---
+<style>
+body {
+  background-image: url('../../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+</style>
+
+## Overview
+
+This project compares two approaches to financial news sentiment classification: fine-tuning a pre-trained BERT model versus using a local Gemma 4 model with zero-shot and few-shot prompting.
+
+::: {.callout-tip}
+## Full Notebook
+Download the complete Jupyter notebook with all code and outputs: [Download Notebook](../../notebooks/sentiment-analysis.ipynb)
+:::
+
+## Dataset Distribution
+
+```{python}
+import matplotlib.pyplot as plt
+
+labels = ['Neutral', 'Positive', 'Negative']
+counts = [3931, 3626, 2443]
+colors = ['#5bcefa', '#7c73ff', '#e74c3c']
+
+fig, ax = plt.subplots(figsize=(8, 5))
+ax.bar(labels, counts, color=colors)
+ax.set_title('Sentiment Distribution (10,000 Sample)')
+ax.set_ylabel('Count')
+plt.tight_layout()
+plt.show()
+```
+
+## Methodology
+
+- **BERT**: Fine-tuned `bert-base-uncased` with Optuna hyperparameter optimisation on a 3-class classification head
+- **Gemma 4**: Tested with zero-shot and few-shot prompting strategies using the E2B variant
+- **Evaluation**: Accuracy, precision, recall, and F1-score (macro) across all models
+
+## Model Performance Comparison
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+results = pd.DataFrame({
+    'Model': ['BERT (Optimised)', 'Gemma 4 (Zero-Shot)', 'Gemma 4 (Few-Shot)'],
+    'Accuracy': [0.8000, 0.7480, 0.6834],
+    'Precision': [0.8001, 0.7664, 0.7380],
+    'Recall': [0.8100, 0.7645, 0.7118],
+    'F1 (Macro)': [0.8040, 0.7605, 0.6725]
+}).set_index('Model')
+
+fig, ax = plt.subplots(figsize=(10, 5))
+results.plot(kind='bar', ax=ax, colormap='Set2')
+ax.set_ylabel('Score')
+ax.set_ylim(0, 1.05)
+ax.set_xticklabels(ax.get_xticklabels(), rotation=15, ha='right')
+ax.legend(loc='lower right')
+ax.set_title('Model Performance Comparison')
+plt.tight_layout()
+plt.show()
+```
+
+## Inference Speed
+
+```{python}
+import matplotlib.pyplot as plt
+
+models = ['BERT (500 samples)', 'Gemma 4 (500 est.)']
+times = [5.53, 50.5]
+
+fig, ax = plt.subplots(figsize=(6, 4))
+ax.bar(models, times, color=['#5bcefa', '#e74c3c'])
+ax.set_ylabel('Time (seconds)')
+ax.set_title('Inference Time Comparison')
+plt.tight_layout()
+plt.show()
+```
+
+## Error Analysis
+
+```{python}
+import matplotlib.pyplot as plt
+
+categories = ['BERT correct,\nGemma wrong', 'Gemma correct,\nBERT wrong']
+counts = [84, 58]
+
+fig, ax = plt.subplots(figsize=(6, 4))
+ax.bar(categories, counts, color=['#5bcefa', '#e74c3c'])
+ax.set_ylabel('Number of Samples')
+ax.set_title('Disagreement Analysis')
+plt.tight_layout()
+plt.show()
+```
+
+## Key Findings
+
+- **BERT outperformed Gemma 4** across all metrics when fine-tuned on domain-specific data, achieving 80% accuracy vs 74.8% for Gemma zero-shot
+- **BERT was ~9x faster** for inference — 11.1ms per sample vs 101ms for Gemma 4
+- **Gemma 4 zero-shot** performed reasonably well without any training, showing strong general language understanding
+- **Few-shot prompting** did not improve over zero-shot for this task, dropping to 68.3% accuracy
+- **Error patterns** showed BERT handled nuanced neutral sentiment better, while Gemma was stronger on clearly positive/negative text
