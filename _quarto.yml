@@ -22,7 +22,7 @@ website:
       - text: CV
         href: cv/cv.pdf
         target: _blank
-      - icon: globe
+      - icon: luggage
         href: travels.html
       - icon: github
         href: https://github.com/woosunghollenhorst
