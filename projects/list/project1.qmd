@@ -27,18 +27,22 @@ Download the complete Jupyter notebook with all code and outputs: [View Notebook
 ## Dataset Distribution
 
 ```{python}
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 
 labels = ['Neutral', 'Positive', 'Negative']
 counts = [3931, 3626, 2443]
 colors = ['#5bcefa', '#7c73ff', '#e74c3c']
 
-fig, ax = plt.subplots(figsize=(8, 5))
-ax.bar(labels, counts, color=colors)
-ax.set_title('Sentiment Distribution (10,000 Sample)')
-ax.set_ylabel('Count')
-plt.tight_layout()
-plt.show()
+fig = go.Figure(data=[go.Bar(x=labels, y=counts, marker_color=colors)])
+fig.update_layout(
+    title='Sentiment Distribution (10,000 Sample)',
+    yaxis_title='Count',
+    template='plotly_dark',
+    paper_bgcolor='rgba(0,0,0,0)',
+    plot_bgcolor='rgba(0,0,0,0)',
+    font=dict(color='#e0e0e0')
+)
+fig.show()
 ```
 
 ## Methodology
@@ -50,58 +54,72 @@ plt.show()
 ## Model Performance Comparison
 
 ```{python}
-import pandas as pd
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 
-results = pd.DataFrame({
-    'Model': ['BERT (Optimised)', 'Gemma 4 (Zero-Shot)', 'Gemma 4 (Few-Shot)'],
-    'Accuracy': [0.8000, 0.7480, 0.6834],
-    'Precision': [0.8001, 0.7664, 0.7380],
-    'Recall': [0.8100, 0.7645, 0.7118],
-    'F1 (Macro)': [0.8040, 0.7605, 0.6725]
-}).set_index('Model')
+models = ['BERT (Optimised)', 'Gemma 4 (Zero-Shot)', 'Gemma 4 (Few-Shot)']
+accuracy = [0.8000, 0.7480, 0.6834]
+precision = [0.8001, 0.7664, 0.7380]
+recall = [0.8100, 0.7645, 0.7118]
+f1 = [0.8040, 0.7605, 0.6725]
 
-fig, ax = plt.subplots(figsize=(10, 5))
-results.plot(kind='bar', ax=ax, colormap='Set2')
-ax.set_ylabel('Score')
-ax.set_ylim(0, 1.05)
-ax.set_xticklabels(ax.get_xticklabels(), rotation=15, ha='right')
-ax.legend(loc='lower right')
-ax.set_title('Model Performance Comparison')
-plt.tight_layout()
-plt.show()
+fig = go.Figure()
+fig.add_trace(go.Bar(name='Accuracy', x=models, y=accuracy, marker_color='#5bcefa'))
+fig.add_trace(go.Bar(name='Precision', x=models, y=precision, marker_color='#7c73ff'))
+fig.add_trace(go.Bar(name='Recall', x=models, y=recall, marker_color='#2ecc71'))
+fig.add_trace(go.Bar(name='F1 (Macro)', x=models, y=f1, marker_color='#f39c12'))
+
+fig.update_layout(
+    barmode='group',
+    title='Model Performance Comparison',
+    yaxis_title='Score',
+    yaxis_range=[0, 1.05],
+    template='plotly_dark',
+    paper_bgcolor='rgba(0,0,0,0)',
+    plot_bgcolor='rgba(0,0,0,0)',
+    font=dict(color='#e0e0e0'),
+    legend=dict(x=0.7, y=0.1)
+)
+fig.show()
 ```
 
 ## Inference Speed
 
 ```{python}
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 
 models = ['BERT (500 samples)', 'Gemma 4 (500 est.)']
 times = [5.53, 50.5]
 
-fig, ax = plt.subplots(figsize=(6, 4))
-ax.bar(models, times, color=['#5bcefa', '#e74c3c'])
-ax.set_ylabel('Time (seconds)')
-ax.set_title('Inference Time Comparison')
-plt.tight_layout()
-plt.show()
+fig = go.Figure(data=[go.Bar(x=models, y=times, marker_color=['#5bcefa', '#e74c3c'])])
+fig.update_layout(
+    title='Inference Time Comparison',
+    yaxis_title='Time (seconds)',
+    template='plotly_dark',
+    paper_bgcolor='rgba(0,0,0,0)',
+    plot_bgcolor='rgba(0,0,0,0)',
+    font=dict(color='#e0e0e0')
+)
+fig.show()
 ```
 
 ## Error Analysis
 
 ```{python}
-import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 
-categories = ['BERT correct,\nGemma wrong', 'Gemma correct,\nBERT wrong']
+categories = ['BERT correct, Gemma wrong', 'Gemma correct, BERT wrong']
 counts = [84, 58]
 
-fig, ax = plt.subplots(figsize=(6, 4))
-ax.bar(categories, counts, color=['#5bcefa', '#e74c3c'])
-ax.set_ylabel('Number of Samples')
-ax.set_title('Disagreement Analysis')
-plt.tight_layout()
-plt.show()
+fig = go.Figure(data=[go.Bar(x=categories, y=counts, marker_color=['#5bcefa', '#e74c3c'])])
+fig.update_layout(
+    title='Disagreement Analysis',
+    yaxis_title='Number of Samples',
+    template='plotly_dark',
+    paper_bgcolor='rgba(0,0,0,0)',
+    plot_bgcolor='rgba(0,0,0,0)',
+    font=dict(color='#e0e0e0')
+)
+fig.show()
 ```
 
 ## Key Findings
