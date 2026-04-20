@@ -1,0 +1,201 @@
+{
+  "cells": [
+    {
+      "cell_type": "raw",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Sales Performance Dashboard\"\n",
+        "description: \"Interactive Power BI dashboard analysing sales, profitability, and regional performance for BuildRight Ltd.\"\n",
+        "author: \"Woo-Sung Hollenhorst\"\n",
+        "date: \"2026-04-19\"\n",
+        "image: ../../images/project2.jpg\n",
+        "categories: [Data Visualisation, Business Intelligence, Power BI]\n",
+        "---"
+      ],
+      "id": "b4c5fe76"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "<style>\n",
+        "body {\n",
+        "  background-image: url('../../images/background.jpg');\n",
+        "  background-size: cover;\n",
+        "  background-position: center;\n",
+        "  background-attachment: fixed;\n",
+        "}\n",
+        "</style>\n",
+        "\n",
+        "## Overview\n",
+        "\n",
+        "This project involved building a multi-page Power BI dashboard for BuildRight Ltd., a fictional company selling products across five global regions. The dashboard provides insights into sales performance, customer distribution, product profitability, and sales team effectiveness.\n",
+        "\n",
+        "## Dashboard Preview\n",
+        "\n",
+        "::: {.callout-note}\n",
+        "The full interactive dashboard was built in Power BI. Below are screenshots of each page, followed by Python-based analysis recreating key insights.\n",
+        ":::\n",
+        "\n",
+        "![Overview Page](../../images/dashboard-overview.png)\n",
+        "\n",
+        "![Customer & Market Page](../../images/dashboard-customer.png)\n",
+        "\n",
+        "![Product Page](../../images/dashboard-product.png)\n",
+        "\n",
+        "![Sales Page](../../images/dashboard-sales.png)\n",
+        "\n",
+        "![Report Page](../../images/dashboard-report.png)\n",
+        "\n",
+        "## Sales by Product"
+      ],
+      "id": "839aa110"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "products = ['Building Material', 'Laptop', 'Smartphone', 'Car', \n",
+        "            'Insurance Plan', 'Solar Panel', 'Monitor', 'Tablet', 'Printer']\n",
+        "sales = [3487.25, 3486.30, 2632.46, 2592.95, \n",
+        "         2345.24, 1219.14, 664.71, 203.83, 124.57]\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(10, 5))\n",
+        "bars = ax.barh(products, sales, color='#5bcefa')\n",
+        "ax.set_xlabel('Sales ($)')\n",
+        "ax.set_title('Total Sales by Product (2024)')\n",
+        "ax.invert_yaxis()\n",
+        "for bar, val in zip(bars, sales):\n",
+        "    ax.text(bar.get_width() + 50, bar.get_y() + bar.get_height()/2, \n",
+        "            f'${val:,.0f}', va='center', color='white')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "9d304900",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Year-over-Year Sales Change"
+      ],
+      "id": "08eeab85"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "products = ['Building Material', 'Insurance Plan', 'Laptop', 'Smartphone', \n",
+        "            'Car', 'Solar Panel', 'Monitor', 'Tablet', 'Printer', 'Flight Ticket']\n",
+        "yoy_change = [1006.29, 209.39, 129.78, 93.92, \n",
+        "              27.31, -41.47, -72.93, -86.87, -88.87, -100.00]\n",
+        "colors = ['#2ecc71' if x >= 0 else '#e74c3c' for x in yoy_change]\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(10, 5))\n",
+        "ax.barh(products, yoy_change, color=colors)\n",
+        "ax.set_xlabel('YoY Change (%)')\n",
+        "ax.set_title('Sales Change Year-over-Year by Product')\n",
+        "ax.axvline(x=0, color='white', linewidth=0.8)\n",
+        "ax.invert_yaxis()\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "fce2fca7",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Regional Sales Performance"
+      ],
+      "id": "54c4afa9"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "regions = ['South America', 'Africa', 'North America', 'Europe', 'Asia']\n",
+        "current = [4794.35, 3722.62, 3250.13, 2936.60, 2052.75]\n",
+        "previous = [2371.57, 6929.22, 2375.61, 1833.07, 1575.04]\n",
+        "\n",
+        "x = range(len(regions))\n",
+        "width = 0.35\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(10, 5))\n",
+        "ax.bar([i - width/2 for i in x], current, width, label='2024', color='#5bcefa')\n",
+        "ax.bar([i + width/2 for i in x], previous, width, label='2023', color='#7c73ff')\n",
+        "ax.set_ylabel('Sales ($)')\n",
+        "ax.set_title('Regional Sales: 2024 vs 2023')\n",
+        "ax.set_xticks(x)\n",
+        "ax.set_xticklabels(regions)\n",
+        "ax.legend()\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "e1fbe447",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Sales Channel Distribution"
+      ],
+      "id": "4b6e50c8"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "channels = ['Offline', 'Online']\n",
+        "sales = [9800, 6960]\n",
+        "colors = ['#5bcefa', '#7c73ff']\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(6, 6))\n",
+        "wedges, texts, autotexts = ax.pie(sales, labels=channels, colors=colors, \n",
+        "                                   autopct='%1.0f%%', startangle=90,\n",
+        "                                   textprops={'color': 'white', 'fontsize': 14})\n",
+        "ax.set_title('Sales Distribution by Channel')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "af0e0a4a",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Key Findings\n",
+        "\n",
+        "- **Different KPI's and performance metrics could be identified through the creation of a PowerBI dashboard**"
+      ],
+      "id": "1db57415"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\wooho\\AppData\\Local\\Programs\\Python\\Python314\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

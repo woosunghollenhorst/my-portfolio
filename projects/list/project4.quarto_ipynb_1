@@ -1,0 +1,197 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Swapfiets Marketing Strategy\"\n",
+        "description: \"Group project developing a marketing strategy for Swapfiets bicycle subscription service in Karlsruhe, Germany.\"\n",
+        "author: \"Woo-Sung Hollenhorst\"\n",
+        "date: \"2020-01-28\"\n",
+        "image: ../../images/project4.jpg\n",
+        "categories: [Marketing, Market Research, Strategy]\n",
+        "---\n",
+        "\n",
+        "<style>\n",
+        "body {\n",
+        "  background-image: url('../../images/background.jpg');\n",
+        "  background-size: cover;\n",
+        "  background-position: center;\n",
+        "  background-attachment: fixed;\n",
+        "}\n",
+        "</style>\n",
+        "\n",
+        "## Overview\n",
+        "\n",
+        "This group project was conducted in partnership with Swapfiets, the world's largest bicycle subscription service. Our team developed a marketing strategy to increase Swapfiets' customer base in Karlsruhe, Germany, with a focus on the winter months. We applied the Sinus-Milieus model for market segmentation, conducted primary survey research, and proposed guerrilla marketing campaigns targeting the Escapist milieu.\n",
+        "\n",
+        "::: {.callout-note}\n",
+        "View the full report: [Swapfiets Report (PDF)](../../files/swapfiets-report.pdf){target=\"_blank\"}\n",
+        ":::\n",
+        "\n",
+        "## Market Segmentation: Sinus-Milieus"
+      ],
+      "id": "906c7717"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "milieus = ['High Achiever', 'Socio-ecological', 'Escapist', \n",
+        "           'Movers & Shakers', 'New Middle Class']\n",
+        "share = [27, 16, 15, 10, 8]\n",
+        "colors = ['#5bcefa', '#7c73ff', '#2ecc71', '#e74c3c', '#f39c12']\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(8, 6))\n",
+        "wedges, texts, autotexts = ax.pie(share, labels=milieus, colors=colors,\n",
+        "                                   autopct='%1.0f%%', startangle=90,\n",
+        "                                   textprops={'color': 'white', 'fontsize': 11})\n",
+        "ax.set_title('Sinus-Milieus Distribution in Karlsruhe', fontsize=14, color='white')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "3a2c0da3",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Survey: Interest by Milieu"
+      ],
+      "id": "8744524c"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "milieus = ['Movers &\\nShakers', 'High\\nAchiever', 'Escapist', 'New Middle\\nClass']\n",
+        "interest = [69.23, 64.29, 62.75, 55.00]\n",
+        "colors = ['#2ecc71', '#5bcefa', '#7c73ff', '#f39c12']\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(10, 5))\n",
+        "bars = ax.bar(milieus, interest, color=colors)\n",
+        "ax.set_ylabel('Interest (%)')\n",
+        "ax.set_title('Interest in Swapfiets Subscription by Milieu')\n",
+        "ax.set_ylim(0, 100)\n",
+        "for bar, val in zip(bars, interest):\n",
+        "    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 2,\n",
+        "            f'{val}%', ha='center', color='white')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "b7ef3597",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Potential Market Population"
+      ],
+      "id": "c1d2d859"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "groups = ['High Achiever', 'Escapist', 'Movers & Shakers', \n",
+        "          'New Middle Class', '18-24 Year Olds', 'Chinese Students']\n",
+        "potential = [53728, 29314, 21429, 13619, 23137, 1780]\n",
+        "colors = ['#5bcefa', '#7c73ff', '#2ecc71', '#f39c12', '#e74c3c', '#95a5a6']\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(10, 5))\n",
+        "bars = ax.barh(groups, potential, color=colors)\n",
+        "ax.set_xlabel('Potential Market Population')\n",
+        "ax.set_title('Estimated Market Potential by Target Group in Karlsruhe')\n",
+        "ax.invert_yaxis()\n",
+        "for bar, val in zip(bars, potential):\n",
+        "    ax.text(bar.get_width() + 500, bar.get_y() + bar.get_height()/2,\n",
+        "            f'{val:,}', va='center', color='white')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "757d55c4",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Winter Cycling Preferences"
+      ],
+      "id": "fc10b66f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "import numpy as np\n",
+        "\n",
+        "gadgets = ['Winter Tires', 'Earmuffs', 'Reflective Vest', 'Face Mask', \n",
+        "           'Gloves', 'Rain Jacket', 'Water Bottle', 'Other']\n",
+        "escapist = [14, 17, 15, 4, 1, 8, 7, 2]\n",
+        "new_middle = [5, 3, 5, 8, 12, 5, 3, 3]\n",
+        "high_achiever = [13, 8, 8, 8, 6, 7, 8, 0]\n",
+        "movers = [1, 3, 5, 11, 5, 2, 1, 1]\n",
+        "\n",
+        "x = np.arange(len(gadgets))\n",
+        "width = 0.2\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(12, 6))\n",
+        "ax.bar(x - 1.5*width, escapist, width, label='Escapist', color='#5bcefa')\n",
+        "ax.bar(x - 0.5*width, new_middle, width, label='New Middle Class', color='#7c73ff')\n",
+        "ax.bar(x + 0.5*width, high_achiever, width, label='High Achiever', color='#2ecc71')\n",
+        "ax.bar(x + 1.5*width, movers, width, label='Movers & Shakers', color='#e74c3c')\n",
+        "ax.set_ylabel('Number of Respondents')\n",
+        "ax.set_title('Winter Cycling Gadget Preferences by Milieu')\n",
+        "ax.set_xticks(x)\n",
+        "ax.set_xticklabels(gadgets, rotation=30, ha='right')\n",
+        "ax.legend()\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "662b713c",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Key Findings\n",
+        "\n",
+        "- **Escapist milieu** was selected as the primary target group due to the greatest market potential (~29,300 people) and strongest alignment with Swapfiets' service\n",
+        "- **Chinese students at KIT** represented a high-potential niche with 90.91% interest rate, driven by an existing bike-sharing culture\n",
+        "- **Winter tires** were the most requested addition across all milieus, with 33 total responses\n",
+        "- Marketing strategy proposed poster campaigns and guerrilla marketing including mural art and a cycling parade\n",
+        "\n",
+        "## Reflection\n",
+        "\n",
+        "This was my first experience working with a company on a live business problem, through the university course. Leading a team of five through research, survey design, and strategy taught me how to combine different perspectives into one clear deliverable. Conducting street surveys in Karlsruhe gave me hands-on experience with primary data collection and its challenges. Our findings eventually led to the execution of a similar strategy by the company."
+      ],
+      "id": "05678059"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\wooho\\AppData\\Local\\Programs\\Python\\Python314\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

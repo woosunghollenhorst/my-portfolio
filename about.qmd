@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+subtitle: "🇬🇧 English · 🇩🇪 Deutsch · 🇰🇷 한국어"
 about:
   template: trestles
   image: images/profile.jpg
@@ -12,6 +13,10 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+p.subtitle.lead {
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
 }
 </style>
 
@@ -35,3 +40,7 @@ I am fluent in English, German, and Korean, I thrive in intercultural environmen
 ## Goals
 
 I'm looking to build a career at the intersection of business and technology, with a focus on analytics and data-driven decision making. I'm currently exploring opportunities within the EU.
+
+## Hobby
+
+I truly love traveling and exploring the world! Check out the countries I have visited by clicking the globe icon on the top right!

@@ -1,0 +1,273 @@
+{
+  "cells": [
+    {
+      "cell_type": "raw",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Covid-19 & Online Shopping Behavior in Germany\"\n",
+        "description: \"Bachelor thesis investigating the pandemic's impact on German consumer behavior in e-commerce.\"\n",
+        "author: \"Woo-Sung Hollenhorst\"\n",
+        "date: \"2024-05-28\"\n",
+        "image: ../../images/project3.jpg\n",
+        "categories: [Research, Consumer Behavior, E-Commerce]\n",
+        "---"
+      ],
+      "id": "6bf5b006"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "<style>\n",
+        "body {\n",
+        "  background-image: url('../../images/background.jpg');\n",
+        "  background-size: cover;\n",
+        "  background-position: center;\n",
+        "  background-attachment: fixed;\n",
+        "}\n",
+        "</style>\n",
+        "\n",
+        "## Overview\n",
+        "\n",
+        "This bachelor thesis explores how the Covid-19 pandemic affected online shopping behavior in Germany. Using a mixed-methods approach combining a survey of 191 participants with 6 in-depth interviews, the study analyses shifts in shopping frequency, spending patterns, product category preferences, and consumer attitudes.\n",
+        "\n",
+        "## Full Thesis\n",
+        "\n",
+        "<iframe src=\"../../files/thesis.pdf\" width=\"100%\" height=\"800px\" style=\"border: none; border-radius: 12px;\"></iframe>\n",
+        "\n",
+        "::: {.callout-note}\n",
+        "If the PDF does not display, you can [view it here](../../files/thesis.pdf){target=\"_blank\"}.\n",
+        ":::\n",
+        "\n",
+        "## Survey Analysis\n",
+        "\n",
+        "### Online Shopping Frequency Before the Pandemic"
+      ],
+      "id": "4b163a7f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "labels = ['Rarely', 'Never', 'Monthly', 'Weekly', 'Daily']\n",
+        "values = [44.8, 25.5, 23.4, 5.5, 0.7]\n",
+        "colors = ['#5bcefa', '#7c73ff', '#e74c3c', '#2ecc71', '#f39c12']\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(7, 7))\n",
+        "wedges, texts, autotexts = ax.pie(values, labels=labels, colors=colors,\n",
+        "                                   autopct='%1.1f%%', startangle=90,\n",
+        "                                   textprops={'color': 'white', 'fontsize': 12})\n",
+        "ax.set_title('Online Shopping Frequency Before Covid-19', fontsize=14, color='white')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "f461f1cf",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Change in Shopping Frequency After the Pandemic"
+      ],
+      "id": "1df8d757"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "categories = ['Increased\\nsignificantly', 'Increased\\nslightly', 'Remained\\nthe same', \n",
+        "              'Decreased\\nslightly', 'Decreased\\nsignificantly']\n",
+        "percentages = [24.8, 56.6, 13.8, 3.4, 1.4]\n",
+        "colors = ['#2ecc71', '#5bcefa', '#7c73ff', '#f39c12', '#e74c3c']\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(10, 5))\n",
+        "bars = ax.bar(categories, percentages, color=colors)\n",
+        "ax.set_ylabel('Percentage of Respondents (%)')\n",
+        "ax.set_title('Change in Online Shopping Frequency After Covid-19')\n",
+        "for bar, val in zip(bars, percentages):\n",
+        "    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1, \n",
+        "            f'{val}%', ha='center', color='white')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "4d258ce9",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Product Categories: Before vs During the Pandemic"
+      ],
+      "id": "3ba63871"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "import numpy as np\n",
+        "\n",
+        "categories = ['Electronics', 'Groceries', 'Clothing', 'Pharmaceuticals', \n",
+        "              'Home &\\nGarden', 'Entertainment', 'Food']\n",
+        "before = [48, 15, 52, 24, 13, 37, 45]\n",
+        "during = [68, 45, 95, 55, 45, 71, 75]\n",
+        "\n",
+        "x = np.arange(len(categories))\n",
+        "width = 0.35\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(12, 6))\n",
+        "ax.bar(x - width/2, before, width, label='Before Pandemic', color='#7c73ff')\n",
+        "ax.bar(x + width/2, during, width, label='During Pandemic', color='#5bcefa')\n",
+        "ax.set_ylabel('Number of Respondents')\n",
+        "ax.set_title('Product Categories Shopped Online: Before vs During Covid-19')\n",
+        "ax.set_xticks(x)\n",
+        "ax.set_xticklabels(categories)\n",
+        "ax.legend()\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "ba09513c",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Reasons for Increased Online Shopping"
+      ],
+      "id": "ef23f43f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "reasons = ['Limited access to\\nphysical stores', 'Safety concerns', \n",
+        "           'Convenience', 'Price advantages', 'More free time', 'Other']\n",
+        "counts = [73, 64, 53, 52, 23, 8]\n",
+        "colors = ['#5bcefa', '#7c73ff', '#2ecc71', '#e74c3c', '#f39c12', '#95a5a6']\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(10, 5))\n",
+        "bars = ax.barh(reasons, counts, color=colors)\n",
+        "ax.set_xlabel('Number of Respondents')\n",
+        "ax.set_title('Reasons for Increased Online Shopping During Covid-19')\n",
+        "ax.invert_yaxis()\n",
+        "for bar, val in zip(bars, counts):\n",
+        "    ax.text(bar.get_width() + 1, bar.get_y() + bar.get_height()/2, \n",
+        "            str(val), va='center', color='white')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "6997d405",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Store Preference: Local vs International"
+      ],
+      "id": "433fc225"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "labels = ['No Preference', 'International', 'Local']\n",
+        "values = [47.6, 38.6, 13.8]\n",
+        "colors = ['#7c73ff', '#5bcefa', '#2ecc71']\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(7, 7))\n",
+        "wedges, texts, autotexts = ax.pie(values, labels=labels, colors=colors,\n",
+        "                                   autopct='%1.1f%%', startangle=90,\n",
+        "                                   textprops={'color': 'white', 'fontsize': 12})\n",
+        "ax.set_title('Preference: Local vs International Online Stores', fontsize=14, color='white')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "10d024be",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Future Shopping Intentions"
+      ],
+      "id": "f18b0a87"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "intentions = ['Yes, more\\nthan now', 'Yes, the same\\nas now', 'Yes, less\\nthan now', 'No, will shop\\nin-person']\n",
+        "counts = [18, 86, 32, 9]\n",
+        "colors = ['#2ecc71', '#5bcefa', '#f39c12', '#e74c3c']\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(10, 5))\n",
+        "bars = ax.bar(intentions, counts, color=colors)\n",
+        "ax.set_ylabel('Number of Respondents')\n",
+        "ax.set_title('Intention to Continue Online Shopping Post-Pandemic')\n",
+        "for bar, val in zip(bars, counts):\n",
+        "    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1, \n",
+        "            str(val), ha='center', color='white')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "0436b8d0",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Key Findings\n",
+        "\n",
+        "- **81.4% of respondents** reported increased online shopping activity during the pandemic\n",
+        "- **Home & Garden** saw the largest growth at 246% increase in online purchases\n",
+        "- **Limited store access** was the top reason for increased online shopping, followed by safety concerns\n",
+        "- **International stores** were preferred over local ones by nearly 3 to 1 among those with a preference\n",
+        "- **59% intended to maintain** their pandemic-level online shopping activity going forward\n",
+        "\n",
+        "## Reflection\n",
+        "\n",
+        "This bachelor thesis was my first experience conducting such in-depth independent academic research from start to finish. Designing the mixed-methods approach, combining a survey of 191 participants with in-depth interviews, taught me how quantitative and qualitative data complement each other. The survey gave me the broad patterns, but it was the interviews that revealed the emotions and reasoning behind the numbers.\n",
+        "\n",
+        "One of the biggest challenges was collecting data on the streets of Frankfurt, Heidelberg, and Bensheim. Approaching strangers, dealing with refusals, and managing different survey conditions.\n",
+        "\n",
+        "Looking back, I would improve the sample diversity and increase the interview pool. The results skewed heavily towards younger demographics, which limited the conclusions I could draw about older populations. This experience gave me a deeper understanding for research design and the importance of addressing bias early.\n",
+        "\n",
+        "This project ultimately sparked my interest in data analytics and consumer behavior, two fields I am now pursuing in my MSc at DCU. The skills I developed here, from data collection to statistical analysis, and academic writing, continue to contribute to my work today."
+      ],
+      "id": "57c3e186"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\wooho\\AppData\\Local\\Programs\\Python\\Python314\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

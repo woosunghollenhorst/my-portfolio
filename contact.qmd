@@ -8,8 +8,8 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-#quarto-content {
-  min-height: calc(100vh - 120px);
+html {
+  background-color: #1a1a2e !important;
 }
 </style>
 

@@ -1,0 +1,189 @@
+{
+  "cells": [
+    {
+      "cell_type": "raw",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"LLM Sentiment Analysis Comparison\"\n",
+        "description: \"Comparing BERT fine-tuning against Gemma 4 for classifying financial news sentiment.\"\n",
+        "author: \"Woo-Sung Hollenhorst\"\n",
+        "date: \"2026-04-19\"\n",
+        "image: ../../images/project1.jpg\n",
+        "categories: [NLP, Machine Learning, Deep Learning]\n",
+        "---"
+      ],
+      "id": "284840a0"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "<style>\n",
+        "body {\n",
+        "  background-image: url('../../images/background.jpg');\n",
+        "  background-size: cover;\n",
+        "  background-position: center;\n",
+        "  background-attachment: fixed;\n",
+        "}\n",
+        "</style>\n",
+        "\n",
+        "## Overview\n",
+        "\n",
+        "This project compares two approaches to financial news sentiment classification: fine-tuning a pre-trained BERT model versus using a local Gemma 4 model with zero-shot and few-shot prompting.\n",
+        "\n",
+        "::: {.callout-tip}\n",
+        "## Full Notebook\n",
+        "Download the complete Jupyter notebook with all code and outputs: [View Notebook](../../notebooks/sentiment-analysis.ipynb){target=\"_blank\"}\n",
+        ":::\n",
+        "\n",
+        "## Dataset Distribution"
+      ],
+      "id": "afe3eeb6"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "labels = ['Neutral', 'Positive', 'Negative']\n",
+        "counts = [3931, 3626, 2443]\n",
+        "colors = ['#5bcefa', '#7c73ff', '#e74c3c']\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(8, 5))\n",
+        "ax.bar(labels, counts, color=colors)\n",
+        "ax.set_title('Sentiment Distribution (10,000 Sample)')\n",
+        "ax.set_ylabel('Count')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "7615de08",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Methodology\n",
+        "\n",
+        "- **BERT**: Fine-tuned `bert-base-uncased` with Optuna hyperparameter optimisation on a 3-class classification head\n",
+        "- **Gemma 4**: Tested with zero-shot and few-shot prompting strategies using the E2B variant\n",
+        "- **Evaluation**: Accuracy, precision, recall, and F1-score (macro) across all models\n",
+        "\n",
+        "## Model Performance Comparison"
+      ],
+      "id": "8134d250"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import pandas as pd\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "results = pd.DataFrame({\n",
+        "    'Model': ['BERT (Optimised)', 'Gemma 4 (Zero-Shot)', 'Gemma 4 (Few-Shot)'],\n",
+        "    'Accuracy': [0.8000, 0.7480, 0.6834],\n",
+        "    'Precision': [0.8001, 0.7664, 0.7380],\n",
+        "    'Recall': [0.8100, 0.7645, 0.7118],\n",
+        "    'F1 (Macro)': [0.8040, 0.7605, 0.6725]\n",
+        "}).set_index('Model')\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(10, 5))\n",
+        "results.plot(kind='bar', ax=ax, colormap='Set2')\n",
+        "ax.set_ylabel('Score')\n",
+        "ax.set_ylim(0, 1.05)\n",
+        "ax.set_xticklabels(ax.get_xticklabels(), rotation=15, ha='right')\n",
+        "ax.legend(loc='lower right')\n",
+        "ax.set_title('Model Performance Comparison')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "6cb4e55a",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Inference Speed"
+      ],
+      "id": "b1f756b7"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "models = ['BERT (500 samples)', 'Gemma 4 (500 est.)']\n",
+        "times = [5.53, 50.5]\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(6, 4))\n",
+        "ax.bar(models, times, color=['#5bcefa', '#e74c3c'])\n",
+        "ax.set_ylabel('Time (seconds)')\n",
+        "ax.set_title('Inference Time Comparison')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "af6c087e",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Error Analysis"
+      ],
+      "id": "5cc1f140"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "categories = ['BERT correct,\\nGemma wrong', 'Gemma correct,\\nBERT wrong']\n",
+        "counts = [84, 58]\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(6, 4))\n",
+        "ax.bar(categories, counts, color=['#5bcefa', '#e74c3c'])\n",
+        "ax.set_ylabel('Number of Samples')\n",
+        "ax.set_title('Disagreement Analysis')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "f9440032",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Key Findings\n",
+        "\n",
+        "- **BERT outperformed Gemma 4** across all metrics when fine-tuned on domain-specific data, achieving 80% accuracy vs 74.8% for Gemma zero-shot\n",
+        "- **BERT was ~9x faster** for inference — 11.1ms per sample vs 101ms for Gemma 4\n",
+        "- **Gemma 4 zero-shot** performed reasonably well without any training, showing strong general language understanding\n",
+        "- **Few-shot prompting** did not improve over zero-shot for this task, dropping to 68.3% accuracy\n",
+        "- **Error patterns** showed BERT handled nuanced neutral sentiment better, while Gemma was stronger on clearly positive/negative text"
+      ],
+      "id": "72dd1854"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\wooho\\AppData\\Local\\Programs\\Python\\Python314\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
